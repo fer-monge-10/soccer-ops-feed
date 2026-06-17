@@ -186,7 +186,7 @@
     "schema_version": "form.0",
     "source": "INTERNATIONAL_RESULTS_FORM"
   },
-  "generated_at_utc": "2026-06-17T19:15:52.560278+00:00",
+  "generated_at_utc": "2026-06-17T19:16:17.653376+00:00",
   "goals_projection": {
     "btts": {
       "no_probability": 0.47061039087948897,
@@ -219,8 +219,41 @@
       }
     ]
   },
+  "h1_1x2": {
+    "execution_available": false,
+    "fixture_key": "api_football:fixture:1489384",
+    "operator_review_required": true,
+    "outcomes": [
+      {
+        "edge_pp": 0.005099999999999993,
+        "kalshi_fair": 0.4129,
+        "outcome": "home",
+        "sharp_fair": 0.418,
+        "verdict": "NO_VALUE"
+      },
+      {
+        "edge_pp": -0.008500000000000008,
+        "kalshi_fair": 0.4229,
+        "outcome": "draw",
+        "sharp_fair": 0.4144,
+        "verdict": "NO_VALUE"
+      },
+      {
+        "edge_pp": 0.0033999999999999864,
+        "kalshi_fair": 0.1642,
+        "outcome": "away",
+        "sharp_fair": 0.1676,
+        "verdict": "NO_VALUE"
+      }
+    ],
+    "output_status": "DISCOVERED",
+    "period": "FIRST_HALF",
+    "proof_scope": "WORLD_CUP_1H_1X2_COMPARISON",
+    "schema_version": "h1_1x2.0",
+    "source": "H1_1X2_COMPARISON"
+  },
   "h1_1x2_kalshi": {
-    "capture_timestamp_utc": "2026-06-17T19:15:55.280541+00:00",
+    "capture_timestamp_utc": "2026-06-17T19:16:19.805677+00:00",
     "de_vig_method": "proportional_kalshi",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1489384",
@@ -241,7 +274,7 @@
     "source": "KALSHI"
   },
   "h1_1x2_sharp": {
-    "capture_timestamp_utc": "2026-06-17T19:15:54.049107+00:00",
+    "capture_timestamp_utc": "2026-06-17T19:16:18.602378+00:00",
     "de_vig_method": "proportional_pinnacle",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1489384",
@@ -261,8 +294,36 @@
     "schema_version": "h1_1x2_sharp.0",
     "source": "THE_ODDS_API"
   },
+  "h1_spreads_kalshi": {
+    "capture_timestamp_utc": "2026-06-17T19:16:19.805677+00:00",
+    "de_vig_method": "proportional_kalshi",
+    "execution_available": false,
+    "fixture_key": "api_football:fixture:1489384",
+    "lines": [
+      {
+        "away_cover_fair": 0.86,
+        "home_cover_fair": 0.14,
+        "line": -1.5
+      },
+      {
+        "away_cover_fair": 0.035,
+        "home_cover_fair": 0.965,
+        "line": 1.5
+      }
+    ],
+    "operator_review_required": true,
+    "output_status": "DISCOVERED",
+    "period": "FIRST_HALF",
+    "proof_scope": "WORLD_CUP_1H_SPREADS_KALSHI_ANCHOR",
+    "raw_prices_persisted": false,
+    "request_cap": 1,
+    "requests_attempted": 1,
+    "requests_succeeded": 1,
+    "schema_version": "h1_spreads_kalshi.0",
+    "source": "KALSHI"
+  },
   "h1_spreads_sharp": {
-    "capture_timestamp_utc": "2026-06-17T19:15:54.049107+00:00",
+    "capture_timestamp_utc": "2026-06-17T19:16:18.602378+00:00",
     "de_vig_method": "proportional_pinnacle",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1489384",
@@ -284,8 +345,70 @@
     "schema_version": "h1_spreads_sharp.0",
     "source": "THE_ODDS_API"
   },
+  "h1_totals": {
+    "execution_available": false,
+    "fixture_key": "api_football:fixture:1489384",
+    "operator_review_required": true,
+    "output_status": "DISCOVERED",
+    "period": "FIRST_HALF",
+    "proof_scope": "WORLD_CUP_1H_TOTALS_COMPARISON",
+    "schema_version": "h1_totals.0",
+    "shared_lines": [
+      {
+        "kalshi_over_fair": 0.68,
+        "line": 0.5,
+        "over_edge_pp": 0.0023999999999999577,
+        "sharp_over_fair": 0.6824
+      },
+      {
+        "kalshi_over_fair": 0.305,
+        "line": 1.5,
+        "over_edge_pp": 0.0126,
+        "sharp_over_fair": 0.3176
+      }
+    ],
+    "source": "H1_TOTALS_COMPARISON"
+  },
+  "h1_totals_kalshi": {
+    "capture_timestamp_utc": "2026-06-17T19:16:19.805677+00:00",
+    "de_vig_method": "proportional_kalshi",
+    "execution_available": false,
+    "fixture_key": "api_football:fixture:1489384",
+    "lines": [
+      {
+        "line": 0.5,
+        "over_fair": 0.68,
+        "under_fair": 0.32
+      },
+      {
+        "line": 1.5,
+        "over_fair": 0.305,
+        "under_fair": 0.695
+      },
+      {
+        "line": 2.5,
+        "over_fair": 0.105,
+        "under_fair": 0.895
+      },
+      {
+        "line": 3.5,
+        "over_fair": 0.03,
+        "under_fair": 0.97
+      }
+    ],
+    "operator_review_required": true,
+    "output_status": "DISCOVERED",
+    "period": "FIRST_HALF",
+    "proof_scope": "WORLD_CUP_1H_TOTALS_KALSHI_ANCHOR",
+    "raw_prices_persisted": false,
+    "request_cap": 1,
+    "requests_attempted": 1,
+    "requests_succeeded": 1,
+    "schema_version": "h1_totals_kalshi.0",
+    "source": "KALSHI"
+  },
   "h1_totals_sharp": {
-    "capture_timestamp_utc": "2026-06-17T19:15:54.049107+00:00",
+    "capture_timestamp_utc": "2026-06-17T19:16:18.602378+00:00",
     "de_vig_method": "proportional_pinnacle",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1489384",
@@ -328,7 +451,7 @@
     "source": "THE_ODDS_API"
   },
   "kalshi_anchor": {
-    "capture_timestamp_utc": "2026-06-17T19:15:54.903759+00:00",
+    "capture_timestamp_utc": "2026-06-17T19:16:19.206540+00:00",
     "de_vig_method": "proportional_kalshi",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1489384",
@@ -631,7 +754,7 @@
     },
     "execution_available": false,
     "fixture_key": "api_football:fixture:1489384",
-    "generated_at_utc": "2026-06-17T19:15:56.279882+00:00",
+    "generated_at_utc": "2026-06-17T19:16:21.253545+00:00",
     "home": {
       "lineup_status": "confirmed",
       "team_name": "England",
@@ -966,6 +1089,69 @@
         "model_edge_pp": -0.04438960912051104,
         "side": "no",
         "status": "BELOW_THRESHOLD"
+      },
+      {
+        "corroboration": "NO_MODEL_FAIR",
+        "edge_pp": 0.005099999999999993,
+        "form": "h1_one_x_two",
+        "line": null,
+        "model_edge_pp": null,
+        "side": "home",
+        "status": "BELOW_THRESHOLD"
+      },
+      {
+        "corroboration": "NO_MODEL_FAIR",
+        "edge_pp": 0.0033999999999999864,
+        "form": "h1_one_x_two",
+        "line": null,
+        "model_edge_pp": null,
+        "side": "away",
+        "status": "BELOW_THRESHOLD"
+      },
+      {
+        "corroboration": "NO_MODEL_FAIR",
+        "edge_pp": -0.008500000000000008,
+        "form": "h1_one_x_two",
+        "line": null,
+        "model_edge_pp": null,
+        "side": "draw",
+        "status": "BELOW_THRESHOLD"
+      },
+      {
+        "corroboration": "NO_MODEL_FAIR",
+        "edge_pp": 0.0126,
+        "form": "h1_totals",
+        "line": 1.5,
+        "model_edge_pp": null,
+        "side": "over",
+        "status": "NOT_SURFACEABLE_CONTEXT_ONLY"
+      },
+      {
+        "corroboration": "NO_MODEL_FAIR",
+        "edge_pp": 0.0023999999999999577,
+        "form": "h1_totals",
+        "line": 0.5,
+        "model_edge_pp": null,
+        "side": "over",
+        "status": "NOT_SURFACEABLE_CONTEXT_ONLY"
+      },
+      {
+        "corroboration": "NO_MODEL_FAIR",
+        "edge_pp": -0.0023999999999999577,
+        "form": "h1_totals",
+        "line": 0.5,
+        "model_edge_pp": null,
+        "side": "under",
+        "status": "NOT_SURFACEABLE_CONTEXT_ONLY"
+      },
+      {
+        "corroboration": "NO_MODEL_FAIR",
+        "edge_pp": -0.0126,
+        "form": "h1_totals",
+        "line": 1.5,
+        "model_edge_pp": null,
+        "side": "under",
+        "status": "NOT_SURFACEABLE_CONTEXT_ONLY"
       }
     ],
     "schema_version": "selection.6",
@@ -983,7 +1169,7 @@
     "bookmaker_set_used": [
       "pinnacle"
     ],
-    "capture_timestamp_utc": "2026-06-17T19:15:52.862406+00:00",
+    "capture_timestamp_utc": "2026-06-17T19:16:17.956191+00:00",
     "de_vig_method": "proportional_pinnacle",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1489384",
@@ -1170,14 +1356,14 @@
         "actionability": "syndicate_only",
         "book_key": "betonlineag",
         "edge_pp": {
-          "away": 0.009599999999999997,
-          "draw": 0.004499999999999976,
-          "home": -0.014100000000000001
+          "away": 0.011099999999999999,
+          "draw": 0.005999999999999978,
+          "home": -0.017100000000000004
         },
         "probabilities": {
-          "away": 0.1689,
-          "draw": 0.2492,
-          "home": 0.5819
+          "away": 0.1674,
+          "draw": 0.2477,
+          "home": 0.5849
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1683,14 +1869,14 @@
         "actionability": "directly_actionable",
         "book_key": "matchbook",
         "edge_pp": {
-          "away": 0.0121,
-          "draw": 0.0007999999999999674,
-          "home": -0.012900000000000023
+          "away": 0.011999999999999983,
+          "draw": 0.0040999999999999925,
+          "home": -0.016100000000000003
         },
         "probabilities": {
-          "away": 0.1664,
-          "draw": 0.2529,
-          "home": 0.5807
+          "away": 0.1665,
+          "draw": 0.2496,
+          "home": 0.5839
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1873,14 +2059,14 @@
         "actionability": "directly_actionable",
         "book_key": "smarkets",
         "edge_pp": {
-          "away": 0.01319999999999999,
-          "draw": 0.005799999999999972,
-          "home": -0.019000000000000017
+          "away": 0.012699999999999989,
+          "draw": 0.004899999999999988,
+          "home": -0.01760000000000006
         },
         "probabilities": {
-          "away": 0.1653,
-          "draw": 0.2479,
-          "home": 0.5868
+          "away": 0.1658,
+          "draw": 0.2488,
+          "home": 0.5854
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -2155,11 +2341,11 @@
         }
       }
     ],
-    "capture_timestamp_utc": "2026-06-17T19:15:54.289566+00:00",
+    "capture_timestamp_utc": "2026-06-17T19:16:18.654600+00:00",
     "consensus": {
       "away": 0.1823,
-      "draw": 0.2507,
-      "home": 0.567
+      "draw": 0.2506,
+      "home": 0.5671
     },
     "de_vig_method": "proportional",
     "execution_available": false,
@@ -2414,6 +2600,14 @@
         "line": -1.5,
         "market": "spreads",
         "side": "away"
+      },
+      {
+        "actionability": "syndicate_only",
+        "book_key": "onexbet",
+        "edge_pp": 0.02080000000000004,
+        "line": -1.0,
+        "market": "spreads",
+        "side": "away"
       }
     ],
     "schema_version": "softbook_signals.0",
@@ -2562,13 +2756,13 @@
           },
           {
             "edge_pp": {
-              "away": 0.011099999999999999,
-              "home": -0.011099999999999999
+              "away": 0.014600000000000002,
+              "home": -0.014599999999999946
             },
             "point": -0.5,
             "probabilities": {
-              "away": 0.4185,
-              "home": 0.5815
+              "away": 0.415,
+              "home": 0.585
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -3093,16 +3287,16 @@
           },
           {
             "edge_pp": {
-              "away": 0.017100000000000004,
-              "home": -0.017100000000000004
+              "away": 0.02080000000000004,
+              "home": -0.02080000000000004
             },
             "point": -1.0,
             "probabilities": {
-              "away": 0.5593,
-              "home": 0.4407
+              "away": 0.5556,
+              "home": 0.4444
             },
             "verdict": {
-              "away": "NO_VALUE",
+              "away": "VALUE",
               "home": "NO_VALUE"
             }
           },
@@ -3337,7 +3531,7 @@
         ]
       }
     ],
-    "capture_timestamp_utc": "2026-06-17T19:15:54.562277+00:00",
+    "capture_timestamp_utc": "2026-06-17T19:16:18.825228+00:00",
     "de_vig_method": "proportional",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1489384",
@@ -4052,13 +4246,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": -0.013299999999999979,
-              "under": 0.01330000000000009
+              "over": -0.014600000000000002,
+              "under": 0.014600000000000057
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.4774,
-              "under": 0.5226
+              "over": 0.4787,
+              "under": 0.5213
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -4115,13 +4309,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": -0.00029999999999996696,
-              "under": 0.00030000000000002247
+              "over": -0.0037000000000000366,
+              "under": 0.003699999999999981
             },
             "point": 1.5,
             "probabilities": {
-              "over": 0.714,
-              "under": 0.286
+              "over": 0.7174,
+              "under": 0.2826
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -4130,13 +4324,13 @@
           },
           {
             "edge_pp": {
-              "over": -0.008700000000000041,
-              "under": 0.008699999999999986
+              "over": -0.013000000000000012,
+              "under": 0.013000000000000012
             },
             "point": 2.0,
             "probabilities": {
-              "over": 0.6291,
-              "under": 0.3709
+              "over": 0.6334,
+              "under": 0.3666
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -4446,7 +4640,7 @@
         ]
       }
     ],
-    "capture_timestamp_utc": "2026-06-17T19:15:54.426273+00:00",
+    "capture_timestamp_utc": "2026-06-17T19:16:18.753320+00:00",
     "de_vig_method": "proportional",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1489384",
@@ -4479,7 +4673,7 @@
     "source": "SPREADS_COMPARISON"
   },
   "spreads_kalshi": {
-    "capture_timestamp_utc": "2026-06-17T19:15:55.089841+00:00",
+    "capture_timestamp_utc": "2026-06-17T19:16:19.428393+00:00",
     "de_vig_method": "proportional_kalshi",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1489384",
@@ -4516,7 +4710,7 @@
     "source": "KALSHI"
   },
   "spreads_sharp": {
-    "capture_timestamp_utc": "2026-06-17T19:15:53.731907+00:00",
+    "capture_timestamp_utc": "2026-06-17T19:16:18.381612+00:00",
     "de_vig_method": "proportional_pinnacle",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1489384",
@@ -4708,7 +4902,7 @@
     "source": "TOTALS_COMPARISON"
   },
   "totals_kalshi": {
-    "capture_timestamp_utc": "2026-06-17T19:15:54.906980+00:00",
+    "capture_timestamp_utc": "2026-06-17T19:16:19.209765+00:00",
     "de_vig_method": "proportional_kalshi",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1489384",
@@ -4755,7 +4949,7 @@
     "source": "KALSHI"
   },
   "totals_sharp": {
-    "capture_timestamp_utc": "2026-06-17T19:15:53.569385+00:00",
+    "capture_timestamp_utc": "2026-06-17T19:16:18.318957+00:00",
     "de_vig_method": "proportional_pinnacle",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1489384",
