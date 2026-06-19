@@ -5,17 +5,17 @@
     "operator_review_required": true,
     "outcomes": [
       {
-        "edge_pp": 0.01629999999999998,
-        "kalshi_fair": 0.535,
+        "edge_pp": -0.004899999999999904,
+        "kalshi_fair": 0.565,
         "outcome": "yes",
-        "sharp_fair": 0.5513,
+        "sharp_fair": 0.5601,
         "verdict": "NO_VALUE"
       },
       {
-        "edge_pp": -0.016300000000000037,
-        "kalshi_fair": 0.465,
+        "edge_pp": 0.0049000000000000155,
+        "kalshi_fair": 0.435,
         "outcome": "no",
-        "sharp_fair": 0.4487,
+        "sharp_fair": 0.4399,
         "verdict": "NO_VALUE"
       }
     ],
@@ -186,7 +186,7 @@
     "schema_version": "form.0",
     "source": "INTERNATIONAL_RESULTS_FORM"
   },
-  "generated_at_utc": "2026-06-19T11:09:48.436059+00:00",
+  "generated_at_utc": "2026-06-19T19:20:19.924277+00:00",
   "goals_projection": {
     "btts": {
       "no_probability": 0.4151427823565861,
@@ -219,15 +219,48 @@
       }
     ]
   },
+  "h1_1x2": {
+    "execution_available": false,
+    "fixture_key": "api_football:fixture:1539007",
+    "operator_review_required": true,
+    "outcomes": [
+      {
+        "edge_pp": 0.00019999999999997797,
+        "kalshi_fair": 0.4229,
+        "outcome": "home",
+        "sharp_fair": 0.4231,
+        "verdict": "NO_VALUE"
+      },
+      {
+        "edge_pp": -0.005900000000000016,
+        "kalshi_fair": 0.393,
+        "outcome": "draw",
+        "sharp_fair": 0.3871,
+        "verdict": "NO_VALUE"
+      },
+      {
+        "edge_pp": 0.005699999999999983,
+        "kalshi_fair": 0.1841,
+        "outcome": "away",
+        "sharp_fair": 0.1898,
+        "verdict": "NO_VALUE"
+      }
+    ],
+    "output_status": "DISCOVERED",
+    "period": "FIRST_HALF",
+    "proof_scope": "WORLD_CUP_1H_1X2_COMPARISON",
+    "schema_version": "h1_1x2.0",
+    "source": "H1_1X2_COMPARISON"
+  },
   "h1_1x2_kalshi": {
-    "capture_timestamp_utc": "2026-06-19T11:10:39.618985+00:00",
+    "capture_timestamp_utc": "2026-06-19T19:20:49.271631+00:00",
     "de_vig_method": "proportional_kalshi",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1539007",
     "market_anchor_probabilities": {
       "away": 0.1841,
-      "draw": 0.403,
-      "home": 0.4129
+      "draw": 0.393,
+      "home": 0.4229
     },
     "operator_review_required": true,
     "output_status": "DISCOVERED",
@@ -241,14 +274,14 @@
     "source": "KALSHI"
   },
   "h1_1x2_sharp": {
-    "capture_timestamp_utc": "2026-06-19T11:10:38.673658+00:00",
+    "capture_timestamp_utc": "2026-06-19T19:20:48.067565+00:00",
     "de_vig_method": "proportional_pinnacle",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1539007",
     "market_anchor_probabilities": {
-      "away": 0.1912,
-      "draw": 0.3933,
-      "home": 0.4155
+      "away": 0.1898,
+      "draw": 0.3871,
+      "home": 0.4231
     },
     "operator_review_required": true,
     "output_status": "DISCOVERED",
@@ -261,15 +294,43 @@
     "schema_version": "h1_1x2_sharp.0",
     "source": "THE_ODDS_API"
   },
+  "h1_spreads_kalshi": {
+    "capture_timestamp_utc": "2026-06-19T19:20:49.271631+00:00",
+    "de_vig_method": "proportional_kalshi",
+    "execution_available": false,
+    "fixture_key": "api_football:fixture:1539007",
+    "lines": [
+      {
+        "away_cover_fair": 0.87,
+        "home_cover_fair": 0.13,
+        "line": -1.5
+      },
+      {
+        "away_cover_fair": 0.24,
+        "home_cover_fair": 0.76,
+        "line": 1.5
+      }
+    ],
+    "operator_review_required": true,
+    "output_status": "DISCOVERED",
+    "period": "FIRST_HALF",
+    "proof_scope": "WORLD_CUP_1H_SPREADS_KALSHI_ANCHOR",
+    "raw_prices_persisted": false,
+    "request_cap": 1,
+    "requests_attempted": 1,
+    "requests_succeeded": 1,
+    "schema_version": "h1_spreads_kalshi.0",
+    "source": "KALSHI"
+  },
   "h1_spreads_sharp": {
-    "capture_timestamp_utc": "2026-06-19T11:10:38.673658+00:00",
+    "capture_timestamp_utc": "2026-06-19T19:20:48.067565+00:00",
     "de_vig_method": "proportional_pinnacle",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1539007",
     "lines": [
       {
-        "away_cover_fair": 0.4793,
-        "home_cover_fair": 0.5207,
+        "away_cover_fair": 0.4715,
+        "home_cover_fair": 0.5285,
         "line": -0.25
       }
     ],
@@ -284,16 +345,34 @@
     "schema_version": "h1_spreads_sharp.0",
     "source": "THE_ODDS_API"
   },
+  "h1_totals": {
+    "execution_available": false,
+    "fixture_key": "api_football:fixture:1539007",
+    "operator_review_required": true,
+    "output_status": "DISCOVERED",
+    "period": "FIRST_HALF",
+    "proof_scope": "WORLD_CUP_1H_TOTALS_COMPARISON",
+    "schema_version": "h1_totals.0",
+    "shared_lines": [
+      {
+        "kalshi_over_fair": 0.355,
+        "line": 1.5,
+        "over_edge_pp": 0.015400000000000025,
+        "sharp_over_fair": 0.3704
+      }
+    ],
+    "source": "H1_TOTALS_COMPARISON"
+  },
   "h1_totals_kalshi": {
-    "capture_timestamp_utc": "2026-06-19T11:10:39.618985+00:00",
+    "capture_timestamp_utc": "2026-06-19T19:20:49.271631+00:00",
     "de_vig_method": "proportional_kalshi",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1539007",
     "lines": [
       {
         "line": 0.5,
-        "over_fair": 0.715,
-        "under_fair": 0.285
+        "over_fair": 0.725,
+        "under_fair": 0.275
       },
       {
         "line": 1.5,
@@ -323,35 +402,35 @@
     "source": "KALSHI"
   },
   "h1_totals_sharp": {
-    "capture_timestamp_utc": "2026-06-19T11:10:38.673658+00:00",
+    "capture_timestamp_utc": "2026-06-19T19:20:48.067565+00:00",
     "de_vig_method": "proportional_pinnacle",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1539007",
     "lines": [
       {
-        "line": 0.5,
-        "over_fair": 0.7155,
-        "under_fair": 0.2845
-      },
-      {
         "line": 0.75,
-        "over_fair": 0.6555,
-        "under_fair": 0.3445
+        "over_fair": 0.6659,
+        "under_fair": 0.3341
       },
       {
         "line": 1.0,
-        "over_fair": 0.5607,
-        "under_fair": 0.4393
+        "over_fair": 0.5747,
+        "under_fair": 0.4253
       },
       {
         "line": 1.25,
-        "over_fair": 0.4375,
-        "under_fair": 0.5625
+        "over_fair": 0.4508,
+        "under_fair": 0.5492
       },
       {
         "line": 1.5,
-        "over_fair": 0.361,
-        "under_fair": 0.639
+        "over_fair": 0.3704,
+        "under_fair": 0.6296
+      },
+      {
+        "line": 1.75,
+        "over_fair": 0.2919,
+        "under_fair": 0.7081
       }
     ],
     "operator_review_required": true,
@@ -366,7 +445,7 @@
     "source": "THE_ODDS_API"
   },
   "kalshi_anchor": {
-    "capture_timestamp_utc": "2026-06-19T11:10:39.202685+00:00",
+    "capture_timestamp_utc": "2026-06-19T19:20:48.591053+00:00",
     "de_vig_method": "proportional_kalshi",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1539007",
@@ -438,14 +517,14 @@
           "rating": 7.0
         },
         {
-          "name": "Isak Hien",
-          "position": "DC",
-          "rating": 6.7
-        },
-        {
           "name": "Gustaf Lagerbielke",
           "position": "DC",
           "rating": 6.4
+        },
+        {
+          "name": "Isak Hien",
+          "position": "DC",
+          "rating": 6.7
         },
         {
           "name": "Gabriel Gudmundsson",
@@ -486,7 +565,7 @@
     },
     "execution_available": false,
     "fixture_key": "api_football:fixture:1539007",
-    "generated_at_utc": "2026-06-19T11:10:40.678698+00:00",
+    "generated_at_utc": "2026-06-19T19:20:50.811639+00:00",
     "home": {
       "lineup_status": "predicted",
       "team_name": "Netherlands",
@@ -516,6 +595,11 @@
           "rating": 5.83
         },
         {
+          "name": "Frenkie de Jong",
+          "position": "MC",
+          "rating": 7.3
+        },
+        {
           "name": "Tijjani Reijnders",
           "position": "MC",
           "rating": 6.73
@@ -524,11 +608,6 @@
           "name": "Ryan Gravenberch",
           "position": "MC",
           "rating": 7.07
-        },
-        {
-          "name": "Frenkie de Jong",
-          "position": "MC",
-          "rating": 7.3
         },
         {
           "name": "Cody Gakpo",
@@ -559,9 +638,9 @@
   },
   "proposal": {
     "blended_probabilities": {
-      "away": 0.17376276854844755,
-      "draw": 0.21859948807363297,
-      "home": 0.6076377433779194
+      "away": 0.17178793249647256,
+      "draw": 0.21536438155394777,
+      "home": 0.6128476859495796
     },
     "confidence_tier": "LOW",
     "corroboration": "MODEL_ONLY",
@@ -593,17 +672,17 @@
     "recommended_pick": "home",
     "schema_version": "m1c.3",
     "sharp_edges": {
-      "away": 0.00821990049751245,
-      "draw": -0.0034810945273631433,
-      "home": -0.004738805970149307
+      "away": 0.004919900497512453,
+      "draw": -0.008481094527363148,
+      "home": 0.0035611940298506672
     },
     "sharp_market_probabilities": {
-      "away": 0.2122,
-      "draw": 0.2403,
-      "home": 0.5475
+      "away": 0.2089,
+      "draw": 0.2353,
+      "home": 0.5558
     },
     "sharp_pick": "NO_VALUE",
-    "sharp_pick_edge": 0.00821990049751245,
+    "sharp_pick_edge": 0.004919900497512453,
     "signal_strength": 1,
     "source": "MODEL_MARKET_PROPOSAL"
   },
@@ -658,7 +737,7 @@
     "ranked_context": [
       {
         "corroboration": "SHARP_ONLY",
-        "edge_pp": 0.009583942414942148,
+        "edge_pp": 0.003442182348771139,
         "form": "dnb",
         "line": null,
         "model_edge_pp": -0.12988979238102794,
@@ -667,7 +746,7 @@
       },
       {
         "corroboration": "MODEL_ONLY",
-        "edge_pp": -0.009583942414942315,
+        "edge_pp": -0.00344218234877125,
         "form": "dnb",
         "line": null,
         "model_edge_pp": 0.12988979238102738,
@@ -676,7 +755,7 @@
       },
       {
         "corroboration": "SHARP_ONLY",
-        "edge_pp": 0.004738805970149307,
+        "edge_pp": -0.0035611940298506672,
         "form": "double_chance",
         "line": null,
         "model_edge_pp": -0.15635422849582076,
@@ -685,7 +764,7 @@
       },
       {
         "corroboration": "MODEL_ONLY",
-        "edge_pp": -0.008219900497512422,
+        "edge_pp": -0.004919900497512564,
         "form": "double_chance",
         "line": null,
         "model_edge_pp": 0.0887742569910599,
@@ -694,7 +773,7 @@
       },
       {
         "corroboration": "SHARP_ONLY",
-        "edge_pp": 0.008882855869232181,
+        "edge_pp": 0.004459504950002385,
         "form": "ah_minus_0_25",
         "line": null,
         "model_edge_pp": -0.10595849139794283,
@@ -703,7 +782,7 @@
       },
       {
         "corroboration": "MODEL_ONLY",
-        "edge_pp": -0.0066300253020852296,
+        "edge_pp": 0.0010135822265772143,
         "form": "ah_minus_0_25",
         "line": null,
         "model_edge_pp": 0.14815654389264066,
@@ -712,16 +791,16 @@
       },
       {
         "corroboration": "NO_MODEL_FAIR",
-        "edge_pp": 0.012599999999999945,
+        "edge_pp": 0.012299999999999978,
         "form": "totals",
         "line": 2.5,
         "model_edge_pp": null,
-        "side": "over",
+        "side": "under",
         "status": "BELOW_THRESHOLD"
       },
       {
         "corroboration": "NO_MODEL_FAIR",
-        "edge_pp": 0.010699999999999987,
+        "edge_pp": 0.004599999999999993,
         "form": "totals",
         "line": 3.5,
         "model_edge_pp": null,
@@ -730,7 +809,7 @@
       },
       {
         "corroboration": "NO_MODEL_FAIR",
-        "edge_pp": -0.010699999999999987,
+        "edge_pp": -0.004599999999999993,
         "form": "totals",
         "line": 3.5,
         "model_edge_pp": null,
@@ -739,16 +818,16 @@
       },
       {
         "corroboration": "NO_MODEL_FAIR",
-        "edge_pp": -0.012599999999999945,
+        "edge_pp": -0.012299999999999978,
         "form": "totals",
         "line": 2.5,
         "model_edge_pp": null,
-        "side": "under",
+        "side": "over",
         "status": "BELOW_THRESHOLD"
       },
       {
         "corroboration": "SHARP_ONLY",
-        "edge_pp": 0.00821990049751245,
+        "edge_pp": 0.004919900497512453,
         "form": "one_x_two",
         "line": null,
         "model_edge_pp": -0.08877425699106034,
@@ -756,17 +835,8 @@
         "status": "BELOW_THRESHOLD"
       },
       {
-        "corroboration": "SHARP_ONLY",
-        "edge_pp": -0.0034810945273631433,
-        "form": "one_x_two",
-        "line": null,
-        "model_edge_pp": -0.06757997150476042,
-        "side": "draw",
-        "status": "BELOW_THRESHOLD"
-      },
-      {
         "corroboration": "MODEL_ONLY",
-        "edge_pp": -0.004738805970149307,
+        "edge_pp": 0.0035611940298506672,
         "form": "one_x_two",
         "line": null,
         "model_edge_pp": 0.15635422849582037,
@@ -774,8 +844,17 @@
         "status": "BELOW_THRESHOLD"
       },
       {
+        "corroboration": "SHARP_ONLY",
+        "edge_pp": -0.008481094527363148,
+        "form": "one_x_two",
+        "line": null,
+        "model_edge_pp": -0.06757997150476042,
+        "side": "draw",
+        "status": "BELOW_THRESHOLD"
+      },
+      {
         "corroboration": "NO_MODEL_FAIR",
-        "edge_pp": 0.007500000000000007,
+        "edge_pp": 0.017699999999999994,
         "form": "spreads",
         "line": -1.5,
         "model_edge_pp": null,
@@ -784,7 +863,7 @@
       },
       {
         "corroboration": "NO_MODEL_FAIR",
-        "edge_pp": -0.007500000000000007,
+        "edge_pp": -0.017699999999999994,
         "form": "spreads",
         "line": -1.5,
         "model_edge_pp": null,
@@ -793,7 +872,16 @@
       },
       {
         "corroboration": "NO_MODEL_FAIR",
-        "edge_pp": 0.01629999999999998,
+        "edge_pp": 0.0049000000000000155,
+        "form": "btts",
+        "line": null,
+        "model_edge_pp": null,
+        "side": "no",
+        "status": "BELOW_THRESHOLD"
+      },
+      {
+        "corroboration": "NO_MODEL_FAIR",
+        "edge_pp": -0.004899999999999904,
         "form": "btts",
         "line": null,
         "model_edge_pp": null,
@@ -802,12 +890,48 @@
       },
       {
         "corroboration": "NO_MODEL_FAIR",
-        "edge_pp": -0.016300000000000037,
-        "form": "btts",
+        "edge_pp": 0.005699999999999983,
+        "form": "h1_one_x_two",
         "line": null,
         "model_edge_pp": null,
-        "side": "no",
+        "side": "away",
         "status": "BELOW_THRESHOLD"
+      },
+      {
+        "corroboration": "NO_MODEL_FAIR",
+        "edge_pp": 0.00019999999999997797,
+        "form": "h1_one_x_two",
+        "line": null,
+        "model_edge_pp": null,
+        "side": "home",
+        "status": "BELOW_THRESHOLD"
+      },
+      {
+        "corroboration": "NO_MODEL_FAIR",
+        "edge_pp": -0.005900000000000016,
+        "form": "h1_one_x_two",
+        "line": null,
+        "model_edge_pp": null,
+        "side": "draw",
+        "status": "BELOW_THRESHOLD"
+      },
+      {
+        "corroboration": "NO_MODEL_FAIR",
+        "edge_pp": 0.015400000000000025,
+        "form": "h1_totals",
+        "line": 1.5,
+        "model_edge_pp": null,
+        "side": "over",
+        "status": "NOT_SURFACEABLE_CONTEXT_ONLY"
+      },
+      {
+        "corroboration": "NO_MODEL_FAIR",
+        "edge_pp": -0.015400000000000025,
+        "form": "h1_totals",
+        "line": 1.5,
+        "model_edge_pp": null,
+        "side": "under",
+        "status": "NOT_SURFACEABLE_CONTEXT_ONLY"
       }
     ],
     "schema_version": "selection.6",
@@ -825,14 +949,14 @@
     "bookmaker_set_used": [
       "pinnacle"
     ],
-    "capture_timestamp_utc": "2026-06-19T11:10:37.951096+00:00",
+    "capture_timestamp_utc": "2026-06-19T19:20:47.443336+00:00",
     "de_vig_method": "proportional_pinnacle",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1539007",
     "market_anchor_probabilities": {
-      "away": 0.2122,
-      "draw": 0.2403,
-      "home": 0.5475
+      "away": 0.2089,
+      "draw": 0.2353,
+      "home": 0.5558
     },
     "market_type": "REGULATION_90_MIN_1X2",
     "operator_review_required": true,
@@ -850,9 +974,9 @@
     "benchmark": {
       "book": "pinnacle",
       "probabilities": {
-        "away": 0.2122,
-        "draw": 0.2403,
-        "home": 0.5475
+        "away": 0.2089,
+        "draw": 0.2353,
+        "home": 0.5558
       }
     },
     "books": [
@@ -860,14 +984,14 @@
         "actionability": "syndicate_only",
         "book_key": "betanysports",
         "edge_pp": {
-          "away": 0.009800000000000003,
-          "draw": -0.004899999999999988,
-          "home": -0.0049000000000000155
+          "away": 0.0010999999999999899,
+          "draw": -0.011099999999999999,
+          "home": 0.010000000000000009
         },
         "probabilities": {
-          "away": 0.2024,
-          "draw": 0.2452,
-          "home": 0.5524
+          "away": 0.2078,
+          "draw": 0.2464,
+          "home": 0.5458
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -879,14 +1003,14 @@
         "actionability": "syndicate_only",
         "book_key": "betclic_fr",
         "edge_pp": {
-          "away": -0.0019000000000000128,
-          "draw": -0.0009999999999999731,
-          "home": 0.0029000000000000137
+          "away": 0.004599999999999993,
+          "draw": -0.001899999999999985,
+          "home": -0.0027000000000000357
         },
         "probabilities": {
-          "away": 0.2141,
-          "draw": 0.2413,
-          "home": 0.5446
+          "away": 0.2043,
+          "draw": 0.2372,
+          "home": 0.5585
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -898,14 +1022,14 @@
         "actionability": "directly_actionable",
         "book_key": "betfair_ex_au",
         "edge_pp": {
-          "away": 0.009500000000000008,
-          "draw": -0.008099999999999996,
-          "home": -0.0014000000000000679
+          "away": 0.006200000000000011,
+          "draw": -0.0069999999999999785,
+          "home": 0.0007999999999999119
         },
         "probabilities": {
           "away": 0.2027,
-          "draw": 0.2484,
-          "home": 0.5489
+          "draw": 0.2423,
+          "home": 0.555
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -917,14 +1041,14 @@
         "actionability": "directly_actionable",
         "book_key": "betfair_ex_eu",
         "edge_pp": {
-          "away": 0.009500000000000008,
-          "draw": -0.008099999999999996,
-          "home": -0.0014000000000000679
+          "away": 0.006200000000000011,
+          "draw": -0.0069999999999999785,
+          "home": 0.0007999999999999119
         },
         "probabilities": {
           "away": 0.2027,
-          "draw": 0.2484,
-          "home": 0.5489
+          "draw": 0.2423,
+          "home": 0.555
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -936,14 +1060,14 @@
         "actionability": "directly_actionable",
         "book_key": "betfair_ex_uk",
         "edge_pp": {
-          "away": 0.009500000000000008,
-          "draw": -0.008099999999999996,
-          "home": -0.0014000000000000679
+          "away": 0.006200000000000011,
+          "draw": -0.0069999999999999785,
+          "home": 0.0007999999999999119
         },
         "probabilities": {
           "away": 0.2027,
-          "draw": 0.2484,
-          "home": 0.5489
+          "draw": 0.2423,
+          "home": 0.555
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -955,14 +1079,14 @@
         "actionability": "syndicate_only",
         "book_key": "betfair_sb_uk",
         "edge_pp": {
-          "away": -0.0012000000000000066,
-          "draw": -0.035099999999999965,
-          "home": 0.0363
+          "away": -0.003799999999999998,
+          "draw": -0.026600000000000013,
+          "home": 0.030399999999999983
         },
         "probabilities": {
-          "away": 0.2134,
-          "draw": 0.2754,
-          "home": 0.5112
+          "away": 0.2127,
+          "draw": 0.2619,
+          "home": 0.5254
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -974,17 +1098,17 @@
         "actionability": "syndicate_only",
         "book_key": "betfred_uk",
         "edge_pp": {
-          "away": 0.020800000000000013,
-          "draw": -0.015000000000000013,
-          "home": -0.005800000000000027
+          "away": 0.014399999999999996,
+          "draw": -0.00789999999999999,
+          "home": -0.006500000000000061
         },
         "probabilities": {
-          "away": 0.1914,
-          "draw": 0.2553,
-          "home": 0.5533
+          "away": 0.1945,
+          "draw": 0.2432,
+          "home": 0.5623
         },
         "verdict": {
-          "away": "VALUE",
+          "away": "NO_VALUE",
           "draw": "NO_VALUE",
           "home": "NO_VALUE"
         }
@@ -993,14 +1117,14 @@
         "actionability": "syndicate_only",
         "book_key": "betmgm",
         "edge_pp": {
-          "away": -0.0005000000000000004,
-          "draw": -0.009199999999999986,
-          "home": 0.009700000000000042
+          "away": -9.999999999998899e-05,
+          "draw": -0.0058,
+          "home": 0.005899999999999905
         },
         "probabilities": {
-          "away": 0.2127,
-          "draw": 0.2495,
-          "home": 0.5378
+          "away": 0.209,
+          "draw": 0.2411,
+          "home": 0.5499
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1012,14 +1136,14 @@
         "actionability": "syndicate_only",
         "book_key": "betonlineag",
         "edge_pp": {
-          "away": 0.009800000000000003,
-          "draw": -0.004899999999999988,
-          "home": -0.0049000000000000155
+          "away": 0.0010999999999999899,
+          "draw": -0.011099999999999999,
+          "home": 0.010000000000000009
         },
         "probabilities": {
-          "away": 0.2024,
-          "draw": 0.2452,
-          "home": 0.5524
+          "away": 0.2078,
+          "draw": 0.2464,
+          "home": 0.5458
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1031,14 +1155,14 @@
         "actionability": "syndicate_only",
         "book_key": "betr_au",
         "edge_pp": {
-          "away": 0.004599999999999993,
-          "draw": -0.008899999999999991,
-          "home": 0.0042999999999999705
+          "away": -0.0032000000000000084,
+          "draw": -0.010199999999999987,
+          "home": 0.013399999999999967
         },
         "probabilities": {
-          "away": 0.2076,
-          "draw": 0.2492,
-          "home": 0.5432
+          "away": 0.2121,
+          "draw": 0.2455,
+          "home": 0.5424
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1050,33 +1174,33 @@
         "actionability": "syndicate_only",
         "book_key": "betright",
         "edge_pp": {
-          "away": -0.009099999999999997,
-          "draw": -0.004299999999999998,
-          "home": 0.013399999999999967
+          "away": -0.017199999999999993,
+          "draw": -0.005599999999999994,
+          "home": 0.02279999999999993
         },
         "probabilities": {
-          "away": 0.2213,
-          "draw": 0.2446,
-          "home": 0.5341
+          "away": 0.2261,
+          "draw": 0.2409,
+          "home": 0.533
         },
         "verdict": {
           "away": "NO_VALUE",
           "draw": "NO_VALUE",
-          "home": "NO_VALUE"
+          "home": "VALUE"
         }
       },
       {
         "actionability": "syndicate_only",
         "book_key": "betrivers",
         "edge_pp": {
-          "away": 0.01369999999999999,
-          "draw": -0.010399999999999965,
-          "home": -0.0032999999999999696
+          "away": 0.0058,
+          "draw": -0.009599999999999997,
+          "home": 0.0037999999999999146
         },
         "probabilities": {
-          "away": 0.1985,
-          "draw": 0.2507,
-          "home": 0.5508
+          "away": 0.2031,
+          "draw": 0.2449,
+          "home": 0.552
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1088,14 +1212,14 @@
         "actionability": "syndicate_only",
         "book_key": "betsson",
         "edge_pp": {
-          "away": 0.004200000000000009,
-          "draw": -0.01429999999999998,
-          "home": 0.010099999999999998
+          "away": 0.0068000000000000005,
+          "draw": -0.013999999999999985,
+          "home": 0.007199999999999984
         },
         "probabilities": {
-          "away": 0.208,
-          "draw": 0.2546,
-          "home": 0.5374
+          "away": 0.2021,
+          "draw": 0.2493,
+          "home": 0.5486
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1107,9 +1231,9 @@
         "actionability": "syndicate_only",
         "book_key": "betus",
         "edge_pp": {
-          "away": 0.015300000000000008,
-          "draw": -0.004499999999999976,
-          "home": -0.010800000000000032
+          "away": 0.01200000000000001,
+          "draw": -0.00949999999999998,
+          "home": -0.0025000000000000577
         },
         "probabilities": {
           "away": 0.1969,
@@ -1126,14 +1250,14 @@
         "actionability": "syndicate_only",
         "book_key": "betvictor",
         "edge_pp": {
-          "away": 0.0032999999999999974,
-          "draw": -0.007199999999999984,
-          "home": 0.0039000000000000146
+          "away": 0.0005999999999999894,
+          "draw": -0.0050000000000000044,
+          "home": 0.0043999999999999595
         },
         "probabilities": {
-          "away": 0.2089,
-          "draw": 0.2475,
-          "home": 0.5436
+          "away": 0.2083,
+          "draw": 0.2403,
+          "home": 0.5514
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1145,14 +1269,14 @@
         "actionability": "syndicate_only",
         "book_key": "betway",
         "edge_pp": {
-          "away": -0.009800000000000003,
-          "draw": -0.004999999999999977,
-          "home": 0.014800000000000035
+          "away": -0.012300000000000005,
+          "draw": 0.0030000000000000027,
+          "home": 0.009299999999999975
         },
         "probabilities": {
-          "away": 0.222,
-          "draw": 0.2453,
-          "home": 0.5327
+          "away": 0.2212,
+          "draw": 0.2323,
+          "home": 0.5465
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1164,14 +1288,14 @@
         "actionability": "syndicate_only",
         "book_key": "bovada",
         "edge_pp": {
-          "away": -0.0007000000000000062,
-          "draw": -0.0024999999999999745,
-          "home": 0.0031999999999999806
+          "away": -0.0012999999999999956,
+          "draw": -0.0011999999999999789,
+          "home": 0.0024999999999999467
         },
         "probabilities": {
-          "away": 0.2129,
-          "draw": 0.2428,
-          "home": 0.5443
+          "away": 0.2102,
+          "draw": 0.2365,
+          "home": 0.5533
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1183,14 +1307,14 @@
         "actionability": "syndicate_only",
         "book_key": "boylesports",
         "edge_pp": {
-          "away": -0.0032000000000000084,
-          "draw": -0.005199999999999982,
-          "home": 0.008399999999999963
+          "away": -0.0023999999999999855,
+          "draw": -0.005499999999999977,
+          "home": 0.007899999999999907
         },
         "probabilities": {
-          "away": 0.2154,
-          "draw": 0.2455,
-          "home": 0.5391
+          "away": 0.2113,
+          "draw": 0.2408,
+          "home": 0.5479
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1202,14 +1326,14 @@
         "actionability": "syndicate_only",
         "book_key": "casumo",
         "edge_pp": {
-          "away": 0.01369999999999999,
-          "draw": -0.010399999999999965,
-          "home": -0.0032999999999999696
+          "away": 0.0058,
+          "draw": -0.009599999999999997,
+          "home": 0.0037999999999999146
         },
         "probabilities": {
-          "away": 0.1985,
-          "draw": 0.2507,
-          "home": 0.5508
+          "away": 0.2031,
+          "draw": 0.2449,
+          "home": 0.552
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1221,9 +1345,9 @@
         "actionability": "syndicate_only",
         "book_key": "coolbet",
         "edge_pp": {
-          "away": 0.011300000000000004,
-          "draw": -0.011099999999999999,
-          "home": -0.00019999999999997797
+          "away": 0.008000000000000007,
+          "draw": -0.016100000000000003,
+          "home": 0.008099999999999996
         },
         "probabilities": {
           "away": 0.2009,
@@ -1240,14 +1364,14 @@
         "actionability": "syndicate_only",
         "book_key": "coral",
         "edge_pp": {
-          "away": -0.0019000000000000128,
-          "draw": -0.007499999999999979,
-          "home": 0.009399999999999964
+          "away": -0.0013999999999999846,
+          "draw": -0.00739999999999999,
+          "home": 0.008799999999999919
         },
         "probabilities": {
-          "away": 0.2141,
-          "draw": 0.2478,
-          "home": 0.5381
+          "away": 0.2103,
+          "draw": 0.2427,
+          "home": 0.547
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1259,14 +1383,14 @@
         "actionability": "syndicate_only",
         "book_key": "dabble_au",
         "edge_pp": {
-          "away": -0.00020000000000000573,
-          "draw": -0.019299999999999984,
-          "home": 0.019499999999999962
+          "away": 0.0012999999999999956,
+          "draw": -0.013899999999999996,
+          "home": 0.012599999999999945
         },
         "probabilities": {
-          "away": 0.2124,
-          "draw": 0.2596,
-          "home": 0.528
+          "away": 0.2076,
+          "draw": 0.2492,
+          "home": 0.5432
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1278,14 +1402,14 @@
         "actionability": "syndicate_only",
         "book_key": "draftkings",
         "edge_pp": {
-          "away": -0.0007000000000000062,
-          "draw": -0.005399999999999988,
-          "home": 0.006099999999999994
+          "away": -0.0010000000000000009,
+          "draw": -9.999999999998899e-05,
+          "home": 0.0010999999999999899
         },
         "probabilities": {
-          "away": 0.2129,
-          "draw": 0.2457,
-          "home": 0.5414
+          "away": 0.2099,
+          "draw": 0.2354,
+          "home": 0.5547
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1297,14 +1421,14 @@
         "actionability": "syndicate_only",
         "book_key": "everygame",
         "edge_pp": {
-          "away": 0.0005999999999999894,
-          "draw": -0.003899999999999987,
-          "home": 0.0032999999999999696
+          "away": -0.001899999999999985,
+          "draw": 0.0040000000000000036,
+          "home": -0.0020999999999999908
         },
         "probabilities": {
-          "away": 0.2116,
-          "draw": 0.2442,
-          "home": 0.5442
+          "away": 0.2108,
+          "draw": 0.2313,
+          "home": 0.5579
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1316,14 +1440,14 @@
         "actionability": "syndicate_only",
         "book_key": "fanatics",
         "edge_pp": {
-          "away": 0.0025000000000000022,
-          "draw": -0.00789999999999999,
-          "home": 0.00539999999999996
+          "away": -0.0012999999999999956,
+          "draw": -0.0011999999999999789,
+          "home": 0.0024999999999999467
         },
         "probabilities": {
-          "away": 0.2097,
-          "draw": 0.2482,
-          "home": 0.5421
+          "away": 0.2102,
+          "draw": 0.2365,
+          "home": 0.5533
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1335,14 +1459,14 @@
         "actionability": "syndicate_only",
         "book_key": "fanduel",
         "edge_pp": {
-          "away": 0.006200000000000011,
-          "draw": -0.009099999999999997,
-          "home": 0.0029000000000000137
+          "away": 0.003500000000000003,
+          "draw": -0.0068999999999999895,
+          "home": 0.0033999999999999586
         },
         "probabilities": {
-          "away": 0.206,
-          "draw": 0.2494,
-          "home": 0.5446
+          "away": 0.2054,
+          "draw": 0.2422,
+          "home": 0.5524
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1354,14 +1478,14 @@
         "actionability": "syndicate_only",
         "book_key": "grosvenor",
         "edge_pp": {
-          "away": 0.012899999999999995,
-          "draw": -0.012799999999999978,
-          "home": -9.999999999998899e-05
+          "away": 0.0012000000000000066,
+          "draw": -0.010599999999999998,
+          "home": 0.009399999999999964
         },
         "probabilities": {
-          "away": 0.1993,
-          "draw": 0.2531,
-          "home": 0.5476
+          "away": 0.2077,
+          "draw": 0.2459,
+          "home": 0.5464
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1373,14 +1497,14 @@
         "actionability": "syndicate_only",
         "book_key": "gtbets",
         "edge_pp": {
-          "away": 0.008200000000000013,
-          "draw": -0.002899999999999986,
-          "home": -0.005299999999999971
+          "away": -0.003500000000000003,
+          "draw": -0.005299999999999999,
+          "home": 0.008799999999999919
         },
         "probabilities": {
-          "away": 0.204,
-          "draw": 0.2432,
-          "home": 0.5528
+          "away": 0.2124,
+          "draw": 0.2406,
+          "home": 0.547
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1392,14 +1516,14 @@
         "actionability": "syndicate_only",
         "book_key": "ladbrokes_au",
         "edge_pp": {
-          "away": -0.0010999999999999899,
-          "draw": -0.010000000000000009,
-          "home": 0.011099999999999999
+          "away": -0.004500000000000004,
+          "draw": -0.005399999999999988,
+          "home": 0.009899999999999909
         },
         "probabilities": {
-          "away": 0.2133,
-          "draw": 0.2503,
-          "home": 0.5364
+          "away": 0.2134,
+          "draw": 0.2407,
+          "home": 0.5459
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1411,14 +1535,14 @@
         "actionability": "syndicate_only",
         "book_key": "ladbrokes_uk",
         "edge_pp": {
-          "away": -0.0010999999999999899,
-          "draw": -0.010000000000000009,
-          "home": 0.011099999999999999
+          "away": -0.0013999999999999846,
+          "draw": -0.00739999999999999,
+          "home": 0.008799999999999919
         },
         "probabilities": {
-          "away": 0.2133,
-          "draw": 0.2503,
-          "home": 0.5364
+          "away": 0.2103,
+          "draw": 0.2427,
+          "home": 0.547
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1430,14 +1554,14 @@
         "actionability": "syndicate_only",
         "book_key": "leovegas",
         "edge_pp": {
-          "away": 0.01369999999999999,
-          "draw": -0.010399999999999965,
-          "home": -0.0032999999999999696
+          "away": 0.0058,
+          "draw": -0.009599999999999997,
+          "home": 0.0037999999999999146
         },
         "probabilities": {
-          "away": 0.1985,
-          "draw": 0.2507,
-          "home": 0.5508
+          "away": 0.2031,
+          "draw": 0.2449,
+          "home": 0.552
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1449,14 +1573,14 @@
         "actionability": "syndicate_only",
         "book_key": "leovegas_se",
         "edge_pp": {
-          "away": 0.01369999999999999,
-          "draw": -0.010399999999999965,
-          "home": -0.0032999999999999696
+          "away": 0.0058,
+          "draw": -0.009599999999999997,
+          "home": 0.0037999999999999146
         },
         "probabilities": {
-          "away": 0.1985,
-          "draw": 0.2507,
-          "home": 0.5508
+          "away": 0.2031,
+          "draw": 0.2449,
+          "home": 0.552
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1468,14 +1592,14 @@
         "actionability": "syndicate_only",
         "book_key": "livescorebet",
         "edge_pp": {
-          "away": 0.013600000000000001,
-          "draw": -0.01200000000000001,
-          "home": -0.0016000000000000458
+          "away": 0.0019000000000000128,
+          "draw": -0.009800000000000003,
+          "home": 0.007899999999999907
         },
         "probabilities": {
-          "away": 0.1986,
-          "draw": 0.2523,
-          "home": 0.5491
+          "away": 0.207,
+          "draw": 0.2451,
+          "home": 0.5479
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1487,14 +1611,14 @@
         "actionability": "syndicate_only",
         "book_key": "lowvig",
         "edge_pp": {
-          "away": 0.009800000000000003,
-          "draw": -0.004899999999999988,
-          "home": -0.0049000000000000155
+          "away": 0.0010999999999999899,
+          "draw": -0.011099999999999999,
+          "home": 0.010000000000000009
         },
         "probabilities": {
-          "away": 0.2024,
-          "draw": 0.2452,
-          "home": 0.5524
+          "away": 0.2078,
+          "draw": 0.2464,
+          "home": 0.5458
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1506,14 +1630,14 @@
         "actionability": "directly_actionable",
         "book_key": "matchbook",
         "edge_pp": {
-          "away": 0.009500000000000008,
-          "draw": -0.008099999999999996,
-          "home": -0.0014000000000000679
+          "away": 0.006200000000000011,
+          "draw": -0.0069999999999999785,
+          "home": 0.0007999999999999119
         },
         "probabilities": {
           "away": 0.2027,
-          "draw": 0.2484,
-          "home": 0.5489
+          "draw": 0.2423,
+          "home": 0.555
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1525,9 +1649,9 @@
         "actionability": "syndicate_only",
         "book_key": "mybookieag",
         "edge_pp": {
-          "away": -0.0019000000000000128,
-          "draw": -0.004299999999999998,
-          "home": 0.006199999999999983
+          "away": -0.00520000000000001,
+          "draw": -0.009300000000000003,
+          "home": 0.014499999999999957
         },
         "probabilities": {
           "away": 0.2141,
@@ -1544,14 +1668,14 @@
         "actionability": "syndicate_only",
         "book_key": "neds",
         "edge_pp": {
-          "away": -0.0010999999999999899,
-          "draw": -0.010000000000000009,
-          "home": 0.011099999999999999
+          "away": -0.004500000000000004,
+          "draw": -0.005399999999999988,
+          "home": 0.009899999999999909
         },
         "probabilities": {
-          "away": 0.2133,
-          "draw": 0.2503,
-          "home": 0.5364
+          "away": 0.2134,
+          "draw": 0.2407,
+          "home": 0.5459
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1563,14 +1687,14 @@
         "actionability": "syndicate_only",
         "book_key": "nordicbet",
         "edge_pp": {
-          "away": 0.004200000000000009,
-          "draw": -0.01429999999999998,
-          "home": 0.010099999999999998
+          "away": 0.0068000000000000005,
+          "draw": -0.013999999999999985,
+          "home": 0.007199999999999984
         },
         "probabilities": {
-          "away": 0.208,
-          "draw": 0.2546,
-          "home": 0.5374
+          "away": 0.2021,
+          "draw": 0.2493,
+          "home": 0.5486
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1582,14 +1706,14 @@
         "actionability": "syndicate_only",
         "book_key": "onexbet",
         "edge_pp": {
-          "away": 0.008000000000000007,
-          "draw": -0.005699999999999983,
-          "home": -0.0022999999999999687
+          "away": 0.004299999999999998,
+          "draw": -0.0063,
+          "home": 0.0020000000000000018
         },
         "probabilities": {
-          "away": 0.2042,
-          "draw": 0.246,
-          "home": 0.5498
+          "away": 0.2046,
+          "draw": 0.2416,
+          "home": 0.5538
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1601,14 +1725,14 @@
         "actionability": "syndicate_only",
         "book_key": "paddypower",
         "edge_pp": {
-          "away": 0.003899999999999987,
-          "draw": -0.009599999999999997,
-          "home": 0.005700000000000038
+          "away": 0.0019000000000000128,
+          "draw": -0.009800000000000003,
+          "home": 0.007899999999999907
         },
         "probabilities": {
-          "away": 0.2083,
-          "draw": 0.2499,
-          "home": 0.5418
+          "away": 0.207,
+          "draw": 0.2451,
+          "home": 0.5479
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1620,14 +1744,14 @@
         "actionability": "syndicate_only",
         "book_key": "playup",
         "edge_pp": {
-          "away": -0.0009000000000000119,
-          "draw": -0.017100000000000004,
-          "home": 0.018000000000000016
+          "away": 0.0012999999999999956,
+          "draw": -0.013899999999999996,
+          "home": 0.012599999999999945
         },
         "probabilities": {
-          "away": 0.2131,
-          "draw": 0.2574,
-          "home": 0.5295
+          "away": 0.2076,
+          "draw": 0.2492,
+          "home": 0.5432
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1639,14 +1763,14 @@
         "actionability": "syndicate_only",
         "book_key": "pmu_fr",
         "edge_pp": {
-          "away": 0.013600000000000001,
-          "draw": -0.01200000000000001,
-          "home": -0.0016000000000000458
+          "away": 0.0019000000000000128,
+          "draw": -0.009800000000000003,
+          "home": 0.007899999999999907
         },
         "probabilities": {
-          "away": 0.1986,
-          "draw": 0.2523,
-          "home": 0.5491
+          "away": 0.207,
+          "draw": 0.2451,
+          "home": 0.5479
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1658,14 +1782,14 @@
         "actionability": "syndicate_only",
         "book_key": "pointsbetau",
         "edge_pp": {
-          "away": 0.0025000000000000022,
-          "draw": -0.00789999999999999,
-          "home": 0.00539999999999996
+          "away": -0.0012999999999999956,
+          "draw": -0.0011999999999999789,
+          "home": 0.0024999999999999467
         },
         "probabilities": {
-          "away": 0.2097,
-          "draw": 0.2482,
-          "home": 0.5421
+          "away": 0.2102,
+          "draw": 0.2365,
+          "home": 0.5533
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1677,14 +1801,14 @@
         "actionability": "syndicate_only",
         "book_key": "skybet",
         "edge_pp": {
-          "away": 0.003899999999999987,
-          "draw": -0.009599999999999997,
-          "home": 0.005700000000000038
+          "away": -0.0007000000000000062,
+          "draw": -0.0003999999999999837,
+          "home": 0.0010999999999999899
         },
         "probabilities": {
-          "away": 0.2083,
-          "draw": 0.2499,
-          "home": 0.5418
+          "away": 0.2096,
+          "draw": 0.2357,
+          "home": 0.5547
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1696,14 +1820,14 @@
         "actionability": "directly_actionable",
         "book_key": "smarkets",
         "edge_pp": {
-          "away": 0.010699999999999987,
-          "draw": -0.009699999999999986,
-          "home": -0.0010000000000000009
+          "away": 0.006200000000000011,
+          "draw": -0.0069999999999999785,
+          "home": 0.0007999999999999119
         },
         "probabilities": {
-          "away": 0.2015,
-          "draw": 0.25,
-          "home": 0.5485
+          "away": 0.2027,
+          "draw": 0.2423,
+          "home": 0.555
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1715,14 +1839,14 @@
         "actionability": "syndicate_only",
         "book_key": "sport888",
         "edge_pp": {
-          "away": 0.0024000000000000132,
-          "draw": -0.016199999999999992,
-          "home": 0.013800000000000034
+          "away": -0.0030999999999999917,
+          "draw": -0.012799999999999978,
+          "home": 0.015899999999999914
         },
         "probabilities": {
-          "away": 0.2098,
-          "draw": 0.2565,
-          "home": 0.5337
+          "away": 0.212,
+          "draw": 0.2481,
+          "home": 0.5399
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1734,9 +1858,9 @@
         "actionability": "syndicate_only",
         "book_key": "sportsbet",
         "edge_pp": {
-          "away": 0.004200000000000009,
-          "draw": -0.004999999999999977,
-          "home": 0.0008000000000000229
+          "away": 0.0009000000000000119,
+          "draw": -0.009999999999999981,
+          "home": 0.009099999999999997
         },
         "probabilities": {
           "away": 0.208,
@@ -1753,14 +1877,14 @@
         "actionability": "syndicate_only",
         "book_key": "tab",
         "edge_pp": {
-          "away": 0.004799999999999999,
-          "draw": -0.01899999999999996,
-          "home": 0.01419999999999999
+          "away": 0.0,
+          "draw": -0.018699999999999994,
+          "home": 0.01869999999999994
         },
         "probabilities": {
-          "away": 0.2074,
-          "draw": 0.2593,
-          "home": 0.5333
+          "away": 0.2089,
+          "draw": 0.254,
+          "home": 0.5371
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1772,14 +1896,14 @@
         "actionability": "syndicate_only",
         "book_key": "tabtouch",
         "edge_pp": {
-          "away": 0.013600000000000001,
-          "draw": -0.01200000000000001,
-          "home": -0.0016000000000000458
+          "away": 0.0019000000000000128,
+          "draw": -0.009800000000000003,
+          "home": 0.007899999999999907
         },
         "probabilities": {
-          "away": 0.1986,
-          "draw": 0.2523,
-          "home": 0.5491
+          "away": 0.207,
+          "draw": 0.2451,
+          "home": 0.5479
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1791,14 +1915,14 @@
         "actionability": "syndicate_only",
         "book_key": "tipico_de",
         "edge_pp": {
-          "away": 0.006200000000000011,
-          "draw": -0.00269999999999998,
-          "home": -0.0035000000000000586
+          "away": 0.007300000000000001,
+          "draw": 0.004200000000000009,
+          "home": -0.011500000000000066
         },
         "probabilities": {
-          "away": 0.206,
-          "draw": 0.243,
-          "home": 0.551
+          "away": 0.2016,
+          "draw": 0.2311,
+          "home": 0.5673
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1810,14 +1934,14 @@
         "actionability": "syndicate_only",
         "book_key": "unibet",
         "edge_pp": {
-          "away": 0.015000000000000013,
-          "draw": -0.0121,
-          "home": -0.0029000000000000137
+          "away": 0.003500000000000003,
+          "draw": -0.010099999999999998,
+          "home": 0.006599999999999939
         },
         "probabilities": {
-          "away": 0.1972,
-          "draw": 0.2524,
-          "home": 0.5504
+          "away": 0.2054,
+          "draw": 0.2454,
+          "home": 0.5492
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1829,14 +1953,14 @@
         "actionability": "syndicate_only",
         "book_key": "unibet_fr",
         "edge_pp": {
-          "away": 0.0030999999999999917,
-          "draw": -0.0005999999999999894,
-          "home": -0.0025000000000000577
+          "away": 0.008500000000000008,
+          "draw": -0.005099999999999993,
+          "home": -0.0034000000000000696
         },
         "probabilities": {
-          "away": 0.2091,
-          "draw": 0.2409,
-          "home": 0.55
+          "away": 0.2004,
+          "draw": 0.2404,
+          "home": 0.5592
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1848,14 +1972,14 @@
         "actionability": "syndicate_only",
         "book_key": "unibet_nl",
         "edge_pp": {
-          "away": 0.0189,
-          "draw": -0.009299999999999975,
-          "home": -0.009600000000000053
+          "away": 0.00739999999999999,
+          "draw": -0.005499999999999977,
+          "home": -0.0019000000000000128
         },
         "probabilities": {
-          "away": 0.1933,
-          "draw": 0.2496,
-          "home": 0.5571
+          "away": 0.2015,
+          "draw": 0.2408,
+          "home": 0.5577
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1867,14 +1991,14 @@
         "actionability": "syndicate_only",
         "book_key": "unibet_se",
         "edge_pp": {
-          "away": 0.0189,
-          "draw": -0.009299999999999975,
-          "home": -0.009600000000000053
+          "away": 0.00739999999999999,
+          "draw": -0.005499999999999977,
+          "home": -0.0019000000000000128
         },
         "probabilities": {
-          "away": 0.1933,
-          "draw": 0.2496,
-          "home": 0.5571
+          "away": 0.2015,
+          "draw": 0.2408,
+          "home": 0.5577
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1886,9 +2010,9 @@
         "actionability": "syndicate_only",
         "book_key": "unibet_uk",
         "edge_pp": {
-          "away": -0.0007999999999999952,
-          "draw": 0.0008000000000000229,
-          "home": 0.0
+          "away": -0.0040999999999999925,
+          "draw": -0.0041999999999999815,
+          "home": 0.008299999999999974
         },
         "probabilities": {
           "away": 0.213,
@@ -1905,14 +2029,14 @@
         "actionability": "syndicate_only",
         "book_key": "virginbet",
         "edge_pp": {
-          "away": 0.013600000000000001,
-          "draw": -0.01200000000000001,
-          "home": -0.0016000000000000458
+          "away": 0.0019000000000000128,
+          "draw": -0.009800000000000003,
+          "home": 0.007899999999999907
         },
         "probabilities": {
-          "away": 0.1986,
-          "draw": 0.2523,
-          "home": 0.5491
+          "away": 0.207,
+          "draw": 0.2451,
+          "home": 0.5479
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1924,14 +2048,14 @@
         "actionability": "syndicate_only",
         "book_key": "williamhill",
         "edge_pp": {
-          "away": 0.006099999999999994,
-          "draw": -0.01739999999999997,
-          "home": 0.011299999999999977
+          "away": -0.0030999999999999917,
+          "draw": -0.013499999999999984,
+          "home": 0.016599999999999948
         },
         "probabilities": {
-          "away": 0.2061,
-          "draw": 0.2577,
-          "home": 0.5362
+          "away": 0.212,
+          "draw": 0.2488,
+          "home": 0.5392
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1943,14 +2067,14 @@
         "actionability": "syndicate_only",
         "book_key": "williamhill_us",
         "edge_pp": {
-          "away": -0.0005000000000000004,
-          "draw": -0.002799999999999997,
-          "home": 0.0032999999999999696
+          "away": -0.0023999999999999855,
+          "draw": -0.0063,
+          "home": 0.00869999999999993
         },
         "probabilities": {
-          "away": 0.2127,
-          "draw": 0.2431,
-          "home": 0.5442
+          "away": 0.2113,
+          "draw": 0.2416,
+          "home": 0.5471
         },
         "verdict": {
           "away": "NO_VALUE",
@@ -1962,9 +2086,9 @@
         "actionability": "syndicate_only",
         "book_key": "winamax_de",
         "edge_pp": {
-          "away": -0.003899999999999987,
-          "draw": 0.002700000000000008,
-          "home": 0.0011999999999999789
+          "away": -0.007199999999999984,
+          "draw": -0.0022999999999999965,
+          "home": 0.009499999999999953
         },
         "probabilities": {
           "away": 0.2161,
@@ -1981,9 +2105,9 @@
         "actionability": "syndicate_only",
         "book_key": "winamax_fr",
         "edge_pp": {
-          "away": -0.0058,
-          "draw": 0.0031000000000000194,
-          "home": 0.0027000000000000357
+          "away": -0.009099999999999997,
+          "draw": -0.001899999999999985,
+          "home": 0.01100000000000001
         },
         "probabilities": {
           "away": 0.218,
@@ -1997,11 +2121,11 @@
         }
       }
     ],
-    "capture_timestamp_utc": "2026-06-19T11:10:38.748876+00:00",
+    "capture_timestamp_utc": "2026-06-19T19:20:48.125597+00:00",
     "consensus": {
-      "away": 0.2073,
-      "draw": 0.2486,
-      "home": 0.5441
+      "away": 0.2081,
+      "draw": 0.2429,
+      "home": 0.549
     },
     "de_vig_method": "proportional",
     "execution_available": false,
@@ -2028,66 +2152,34 @@
       {
         "actionability": "syndicate_only",
         "book_key": "betfair_sb_uk",
-        "edge_pp": 0.0363,
+        "edge_pp": 0.030399999999999983,
         "line": null,
         "market": "one_x_two",
         "side": "home"
       },
       {
         "actionability": "syndicate_only",
-        "book_key": "betonlineag",
-        "edge_pp": 0.03270000000000006,
-        "line": 2.25,
-        "market": "totals",
-        "side": "over"
-      },
-      {
-        "actionability": "syndicate_only",
-        "book_key": "lowvig",
-        "edge_pp": 0.03270000000000006,
-        "line": 2.25,
-        "market": "totals",
-        "side": "over"
-      },
-      {
-        "actionability": "syndicate_only",
-        "book_key": "fanduel",
-        "edge_pp": 0.02679999999999999,
-        "line": -1.5,
-        "market": "spreads",
+        "book_key": "betright",
+        "edge_pp": 0.02279999999999993,
+        "line": null,
+        "market": "one_x_two",
         "side": "home"
       },
       {
         "actionability": "syndicate_only",
-        "book_key": "betonlineag",
-        "edge_pp": 0.025599999999999956,
-        "line": 2.5,
+        "book_key": "betrivers",
+        "edge_pp": 0.021599999999999953,
+        "line": 3.5,
         "market": "totals",
-        "side": "over"
+        "side": "under"
       },
       {
         "actionability": "syndicate_only",
-        "book_key": "lowvig",
-        "edge_pp": 0.025599999999999956,
-        "line": 2.5,
+        "book_key": "betus",
+        "edge_pp": 0.021199999999999997,
+        "line": 3.0,
         "market": "totals",
-        "side": "over"
-      },
-      {
-        "actionability": "syndicate_only",
-        "book_key": "betfred_uk",
-        "edge_pp": 0.020800000000000013,
-        "line": null,
-        "market": "one_x_two",
-        "side": "away"
-      },
-      {
-        "actionability": "syndicate_only",
-        "book_key": "williamhill",
-        "edge_pp": 0.02059999999999995,
-        "line": 2.5,
-        "market": "totals",
-        "side": "over"
+        "side": "under"
       }
     ],
     "schema_version": "softbook_signals.0",
@@ -2101,64 +2193,64 @@
         {
           "point": -1.75,
           "probabilities": {
-            "away": 0.7485,
-            "home": 0.2515
+            "away": 0.7395,
+            "home": 0.2605
           }
         },
         {
           "point": -1.5,
           "probabilities": {
-            "away": 0.6875,
-            "home": 0.3125
+            "away": 0.6773,
+            "home": 0.3227
           }
         },
         {
           "point": -1.25,
           "probabilities": {
-            "away": 0.6454,
-            "home": 0.3546
+            "away": 0.6355,
+            "home": 0.3645
           }
         },
         {
           "point": -1.0,
           "probabilities": {
-            "away": 0.591,
-            "home": 0.409
+            "away": 0.5768,
+            "home": 0.4232
           }
         },
         {
           "point": -0.75,
           "probabilities": {
-            "away": 0.5115,
-            "home": 0.4885
+            "away": 0.5,
+            "home": 0.5
           }
         },
         {
           "point": -0.5,
           "probabilities": {
-            "away": 0.4501,
-            "home": 0.5499
+            "away": 0.4388,
+            "home": 0.5612
           }
         },
         {
           "point": -0.25,
           "probabilities": {
-            "away": 0.3753,
-            "home": 0.6247
+            "away": 0.3669,
+            "home": 0.6331
           }
         },
         {
           "point": 0.0,
           "probabilities": {
-            "away": 0.2797,
-            "home": 0.7203
+            "away": 0.2716,
+            "home": 0.7284
           }
         },
         {
           "point": 0.25,
           "probabilities": {
-            "away": 0.2424,
-            "home": 0.7576
+            "away": 0.2368,
+            "home": 0.7632
           }
         }
       ]
@@ -2170,13 +2262,13 @@
         "lines": [
           {
             "edge_pp": {
-              "away": 0.0026000000000000467,
-              "home": -0.002599999999999991
+              "away": -0.0044999999999999485,
+              "home": 0.004500000000000004
             },
             "point": -1.5,
             "probabilities": {
-              "away": 0.6849,
-              "home": 0.3151
+              "away": 0.6818,
+              "home": 0.3182
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2185,13 +2277,13 @@
           },
           {
             "edge_pp": {
-              "away": -0.006000000000000005,
-              "home": 0.00599999999999995
+              "away": -0.01859999999999995,
+              "home": 0.01860000000000006
             },
-            "point": -1.0,
+            "point": -0.5,
             "probabilities": {
-              "away": 0.597,
-              "home": 0.403
+              "away": 0.4574,
+              "home": 0.5426
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2206,13 +2298,13 @@
         "lines": [
           {
             "edge_pp": {
-              "away": -0.007000000000000006,
-              "home": 0.006999999999999951
+              "away": -0.011700000000000044,
+              "home": 0.011700000000000044
             },
             "point": -1.0,
             "probabilities": {
-              "away": 0.598,
-              "home": 0.402
+              "away": 0.5885,
+              "home": 0.4115
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2221,13 +2313,28 @@
           },
           {
             "edge_pp": {
-              "away": 0.0023999999999999577,
-              "home": -0.0024000000000000132
+              "away": -0.009099999999999997,
+              "home": 0.009099999999999997
             },
             "point": -0.75,
             "probabilities": {
               "away": 0.5091,
               "home": 0.4909
+            },
+            "verdict": {
+              "away": "NO_VALUE",
+              "home": "NO_VALUE"
+            }
+          },
+          {
+            "edge_pp": {
+              "away": -0.013899999999999968,
+              "home": 0.013900000000000023
+            },
+            "point": -0.5,
+            "probabilities": {
+              "away": 0.4527,
+              "home": 0.5473
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2242,13 +2349,13 @@
         "lines": [
           {
             "edge_pp": {
-              "away": 0.008100000000000107,
-              "home": -0.008099999999999996
+              "away": 0.010300000000000087,
+              "home": -0.010299999999999976
             },
             "point": -1.75,
             "probabilities": {
-              "away": 0.7404,
-              "home": 0.2596
+              "away": 0.7292,
+              "home": 0.2708
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2257,13 +2364,13 @@
           },
           {
             "edge_pp": {
-              "away": 0.0026000000000000467,
-              "home": -0.002599999999999991
+              "away": 0.00990000000000002,
+              "home": -0.00990000000000002
             },
             "point": -1.5,
             "probabilities": {
-              "away": 0.6849,
-              "home": 0.3151
+              "away": 0.6674,
+              "home": 0.3326
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2272,13 +2379,13 @@
           },
           {
             "edge_pp": {
-              "away": 0.005499999999999949,
-              "home": -0.005499999999999949
+              "away": 0.005899999999999905,
+              "home": -0.005900000000000016
             },
             "point": -1.25,
             "probabilities": {
-              "away": 0.6399,
-              "home": 0.3601
+              "away": 0.6296,
+              "home": 0.3704
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2287,13 +2394,13 @@
           },
           {
             "edge_pp": {
-              "away": 0.007900000000000018,
-              "home": -0.007900000000000018
+              "away": 0.0020999999999999908,
+              "home": -0.0020999999999999908
             },
             "point": -1.0,
             "probabilities": {
-              "away": 0.5831,
-              "home": 0.4169
+              "away": 0.5747,
+              "home": 0.4253
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2302,13 +2409,13 @@
           },
           {
             "edge_pp": {
-              "away": 0.006199999999999983,
-              "home": -0.006199999999999983
+              "away": 0.0013000000000000234,
+              "home": -0.0012999999999999678
             },
             "point": -0.75,
             "probabilities": {
-              "away": 0.5053,
-              "home": 0.4947
+              "away": 0.4987,
+              "home": 0.5013
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2317,13 +2424,13 @@
           },
           {
             "edge_pp": {
-              "away": 0.003599999999999992,
-              "home": -0.0035999999999999366
+              "away": -0.00539999999999996,
+              "home": 0.005400000000000071
             },
             "point": -0.5,
             "probabilities": {
-              "away": 0.4465,
-              "home": 0.5535
+              "away": 0.4442,
+              "home": 0.5558
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2332,8 +2439,8 @@
           },
           {
             "edge_pp": {
-              "away": 0.0049000000000000155,
-              "home": -0.0049000000000000155
+              "away": -0.003500000000000003,
+              "home": 0.0034999999999999476
             },
             "point": -0.25,
             "probabilities": {
@@ -2347,13 +2454,13 @@
           },
           {
             "edge_pp": {
-              "away": 0.0058,
-              "home": -0.005799999999999916
+              "away": -0.003599999999999992,
+              "home": 0.0035999999999999366
             },
             "point": 0.25,
             "probabilities": {
-              "away": 0.2366,
-              "home": 0.7634
+              "away": 0.2404,
+              "home": 0.7596
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2368,8 +2475,8 @@
         "lines": [
           {
             "edge_pp": {
-              "away": 0.012799999999999978,
-              "home": -0.012799999999999923
+              "away": 0.0015000000000000013,
+              "home": -0.0014999999999999458
             },
             "point": -0.5,
             "probabilities": {
@@ -2389,28 +2496,13 @@
         "lines": [
           {
             "edge_pp": {
-              "away": 0.0030000000000000027,
-              "home": -0.0030000000000000027
-            },
-            "point": -1.75,
-            "probabilities": {
-              "away": 0.7455,
-              "home": 0.2545
-            },
-            "verdict": {
-              "away": "NO_VALUE",
-              "home": "NO_VALUE"
-            }
-          },
-          {
-            "edge_pp": {
               "away": 0.0006000000000000449,
               "home": -0.0005999999999999894
             },
-            "point": -1.5,
+            "point": -1.75,
             "probabilities": {
-              "away": 0.6869,
-              "home": 0.3131
+              "away": 0.7389,
+              "home": 0.2611
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2419,13 +2511,28 @@
           },
           {
             "edge_pp": {
-              "away": 0.00029999999999996696,
-              "home": -0.00029999999999996696
+              "away": 0.0007000000000000339,
+              "home": -0.0007000000000000339
+            },
+            "point": -1.5,
+            "probabilities": {
+              "away": 0.6766,
+              "home": 0.3234
+            },
+            "verdict": {
+              "away": "NO_VALUE",
+              "home": "NO_VALUE"
+            }
+          },
+          {
+            "edge_pp": {
+              "away": 0.0028999999999999027,
+              "home": -0.0029000000000000137
             },
             "point": -1.25,
             "probabilities": {
-              "away": 0.6451,
-              "home": 0.3549
+              "away": 0.6326,
+              "home": 0.3674
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2434,13 +2541,13 @@
           },
           {
             "edge_pp": {
-              "away": 9.999999999998899e-05,
-              "home": -0.0001000000000000445
+              "away": 0.0028000000000000247,
+              "home": -0.002799999999999969
             },
             "point": -1.0,
             "probabilities": {
-              "away": 0.5909,
-              "home": 0.4091
+              "away": 0.574,
+              "home": 0.426
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2449,13 +2556,13 @@
           },
           {
             "edge_pp": {
-              "away": 0.0010000000000000009,
-              "home": -0.0010000000000000009
+              "away": 0.0,
+              "home": 0.0
             },
             "point": -0.75,
             "probabilities": {
-              "away": 0.5105,
-              "home": 0.4895
+              "away": 0.5,
+              "home": 0.5
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2464,13 +2571,13 @@
           },
           {
             "edge_pp": {
-              "away": 0.0005000000000000004,
-              "home": -0.0004999999999999449
+              "away": 0.0007000000000000339,
+              "home": -0.0006999999999999229
             },
             "point": -0.5,
             "probabilities": {
-              "away": 0.4496,
-              "home": 0.5504
+              "away": 0.4381,
+              "home": 0.5619
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2479,13 +2586,13 @@
           },
           {
             "edge_pp": {
-              "away": 0.00030000000000002247,
-              "home": -0.00029999999999996696
+              "away": -0.0005000000000000004,
+              "home": 0.0004999999999999449
             },
             "point": -0.25,
             "probabilities": {
-              "away": 0.375,
-              "home": 0.625
+              "away": 0.3674,
+              "home": 0.6326
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2494,13 +2601,13 @@
           },
           {
             "edge_pp": {
-              "away": -0.0015000000000000013,
-              "home": 0.0015000000000000568
+              "away": -0.0022999999999999687,
+              "home": 0.0023000000000000798
             },
             "point": 0.0,
             "probabilities": {
-              "away": 0.2812,
-              "home": 0.7188
+              "away": 0.2739,
+              "home": 0.7261
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2509,13 +2616,13 @@
           },
           {
             "edge_pp": {
-              "away": -0.001799999999999996,
-              "home": 0.0018000000000000238
+              "away": -0.004999999999999977,
+              "home": 0.0050000000000000044
             },
             "point": 0.25,
             "probabilities": {
-              "away": 0.2442,
-              "home": 0.7558
+              "away": 0.2418,
+              "home": 0.7582
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2530,13 +2637,13 @@
         "lines": [
           {
             "edge_pp": {
-              "away": -0.005400000000000071,
-              "home": 0.00539999999999996
+              "away": -0.0046000000000000485,
+              "home": 0.004599999999999993
             },
             "point": -1.0,
             "probabilities": {
-              "away": 0.5964,
-              "home": 0.4036
+              "away": 0.5814,
+              "home": 0.4186
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2545,13 +2652,13 @@
           },
           {
             "edge_pp": {
-              "away": 0.0007999999999999119,
-              "home": -0.0008000000000000229
+              "away": -0.005299999999999971,
+              "home": 0.005300000000000027
             },
             "point": -0.75,
             "probabilities": {
-              "away": 0.5107,
-              "home": 0.4893
+              "away": 0.5053,
+              "home": 0.4947
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2560,13 +2667,13 @@
           },
           {
             "edge_pp": {
-              "away": 0.0013000000000000234,
-              "home": -0.0012999999999999678
+              "away": -0.0012999999999999678,
+              "home": 0.0013000000000000789
             },
             "point": -0.5,
             "probabilities": {
-              "away": 0.4488,
-              "home": 0.5512
+              "away": 0.4401,
+              "home": 0.5599
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2575,13 +2682,13 @@
           },
           {
             "edge_pp": {
-              "away": -0.0043999999999999595,
-              "home": 0.0044000000000000705
+              "away": -0.0050000000000000044,
+              "home": 0.0050000000000000044
             },
             "point": -0.25,
             "probabilities": {
-              "away": 0.3797,
-              "home": 0.6203
+              "away": 0.3719,
+              "home": 0.6281
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2596,17 +2703,17 @@
         "lines": [
           {
             "edge_pp": {
-              "away": -0.026800000000000046,
-              "home": 0.02679999999999999
+              "away": -0.017800000000000038,
+              "home": 0.017799999999999983
             },
             "point": -1.5,
             "probabilities": {
-              "away": 0.7143,
-              "home": 0.2857
+              "away": 0.6951,
+              "home": 0.3049
             },
             "verdict": {
               "away": "NO_VALUE",
-              "home": "VALUE"
+              "home": "NO_VALUE"
             }
           }
         ]
@@ -2617,8 +2724,8 @@
         "lines": [
           {
             "edge_pp": {
-              "away": -0.0015999999999999903,
-              "home": 0.0016000000000000458
+              "away": -0.012899999999999967,
+              "home": 0.012900000000000023
             },
             "point": -0.5,
             "probabilities": {
@@ -2638,13 +2745,13 @@
         "lines": [
           {
             "edge_pp": {
-              "away": -0.007000000000000006,
-              "home": 0.006999999999999951
+              "away": -0.011700000000000044,
+              "home": 0.011700000000000044
             },
             "point": -1.0,
             "probabilities": {
-              "away": 0.598,
-              "home": 0.402
+              "away": 0.5885,
+              "home": 0.4115
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2653,13 +2760,28 @@
           },
           {
             "edge_pp": {
-              "away": 0.0023999999999999577,
-              "home": -0.0024000000000000132
+              "away": -0.009099999999999997,
+              "home": 0.009099999999999997
             },
             "point": -0.75,
             "probabilities": {
               "away": 0.5091,
               "home": 0.4909
+            },
+            "verdict": {
+              "away": "NO_VALUE",
+              "home": "NO_VALUE"
+            }
+          },
+          {
+            "edge_pp": {
+              "away": -0.013899999999999968,
+              "home": 0.013900000000000023
+            },
+            "point": -0.5,
+            "probabilities": {
+              "away": 0.4527,
+              "home": 0.5473
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2674,13 +2796,13 @@
         "lines": [
           {
             "edge_pp": {
-              "away": 0.0013999999999999568,
-              "home": -0.0014000000000000123
+              "away": -0.0038000000000000256,
+              "home": 0.0038000000000000256
             },
             "point": -0.75,
             "probabilities": {
-              "away": 0.5101,
-              "home": 0.4899
+              "away": 0.5038,
+              "home": 0.4962
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2695,13 +2817,13 @@
         "lines": [
           {
             "edge_pp": {
-              "away": -0.005699999999999983,
-              "home": 0.005700000000000038
+              "away": -0.015699999999999992,
+              "home": 0.015700000000000047
             },
             "point": -0.5,
             "probabilities": {
-              "away": 0.4558,
-              "home": 0.5442
+              "away": 0.4545,
+              "home": 0.5455
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2716,13 +2838,13 @@
         "lines": [
           {
             "edge_pp": {
-              "away": 0.007299999999999973,
-              "home": -0.007299999999999973
+              "away": 0.006099999999999994,
+              "home": -0.006099999999999994
             },
             "point": -1.5,
             "probabilities": {
-              "away": 0.6802,
-              "home": 0.3198
+              "away": 0.6712,
+              "home": 0.3288
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2731,13 +2853,13 @@
           },
           {
             "edge_pp": {
-              "away": 0.008499999999999952,
-              "home": -0.008500000000000008
+              "away": 0.0013999999999999568,
+              "home": -0.0013999999999999568
             },
             "point": -1.0,
             "probabilities": {
-              "away": 0.5825,
-              "home": 0.4175
+              "away": 0.5754,
+              "home": 0.4246
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2746,13 +2868,13 @@
           },
           {
             "edge_pp": {
-              "away": 0.0031999999999999806,
-              "home": -0.0031999999999999806
+              "away": -0.005500000000000005,
+              "home": 0.00550000000000006
             },
             "point": 0.0,
             "probabilities": {
-              "away": 0.2765,
-              "home": 0.7235
+              "away": 0.2771,
+              "home": 0.7229
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2767,13 +2889,13 @@
         "lines": [
           {
             "edge_pp": {
-              "away": -0.0006000000000000449,
-              "home": 0.0005999999999999894
+              "away": 0.0029000000000000137,
+              "home": -0.0029000000000000137
             },
             "point": -1.5,
             "probabilities": {
-              "away": 0.6881,
-              "home": 0.3119
+              "away": 0.6744,
+              "home": 0.3256
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2788,13 +2910,13 @@
         "lines": [
           {
             "edge_pp": {
-              "away": -0.0021999999999999797,
-              "home": 0.0021999999999999797
+              "away": -0.00029999999999996696,
+              "home": 0.00029999999999996696
             },
             "point": -1.5,
             "probabilities": {
-              "away": 0.6897,
-              "home": 0.3103
+              "away": 0.6776,
+              "home": 0.3224
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2803,13 +2925,13 @@
           },
           {
             "edge_pp": {
-              "away": -0.0018000000000000238,
-              "home": 0.0017999999999999683
+              "away": -0.007600000000000051,
+              "home": 0.007599999999999996
             },
             "point": -1.0,
             "probabilities": {
-              "away": 0.5928,
-              "home": 0.4072
+              "away": 0.5844,
+              "home": 0.4156
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2818,13 +2940,13 @@
           },
           {
             "edge_pp": {
-              "away": -0.01040000000000002,
-              "home": 0.010400000000000076
+              "away": -0.015699999999999992,
+              "home": 0.015700000000000047
             },
             "point": -0.5,
             "probabilities": {
-              "away": 0.4605,
-              "home": 0.5395
+              "away": 0.4545,
+              "home": 0.5455
             },
             "verdict": {
               "away": "NO_VALUE",
@@ -2833,8 +2955,8 @@
           },
           {
             "edge_pp": {
-              "away": -0.0029000000000000137,
-              "home": 0.0029000000000000137
+              "away": -0.01100000000000001,
+              "home": 0.01100000000000001
             },
             "point": 0.0,
             "probabilities": {
@@ -2854,8 +2976,8 @@
         "lines": [
           {
             "edge_pp": {
-              "away": 0.007099999999999995,
-              "home": -0.007099999999999995
+              "away": -0.0041999999999999815,
+              "home": 0.0041999999999999815
             },
             "point": -0.5,
             "probabilities": {
@@ -2870,7 +2992,7 @@
         ]
       }
     ],
-    "capture_timestamp_utc": "2026-06-19T11:10:38.994518+00:00",
+    "capture_timestamp_utc": "2026-06-19T19:20:48.287453+00:00",
     "de_vig_method": "proportional",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1539007",
@@ -2892,64 +3014,64 @@
         {
           "point": 1.75,
           "probabilities": {
-            "over": 0.743,
-            "under": 0.257
+            "over": 0.7553,
+            "under": 0.2447
           }
         },
         {
           "point": 2.0,
           "probabilities": {
-            "over": 0.7063,
-            "under": 0.2937
+            "over": 0.7218,
+            "under": 0.2782
           }
         },
         {
           "point": 2.25,
           "probabilities": {
-            "over": 0.6167,
-            "under": 0.3833
+            "over": 0.6329,
+            "under": 0.3671
           }
         },
         {
           "point": 2.5,
           "probabilities": {
-            "over": 0.5476,
-            "under": 0.4524
+            "over": 0.5627,
+            "under": 0.4373
           }
         },
         {
           "point": 2.75,
           "probabilities": {
-            "over": 0.491,
-            "under": 0.509
+            "over": 0.5064,
+            "under": 0.4936
           }
         },
         {
           "point": 3.0,
           "probabilities": {
-            "over": 0.4167,
-            "under": 0.5833
+            "over": 0.4362,
+            "under": 0.5638
           }
         },
         {
           "point": 3.25,
           "probabilities": {
-            "over": 0.3663,
-            "under": 0.6337
+            "over": 0.3824,
+            "under": 0.6176
           }
         },
         {
           "point": 3.5,
           "probabilities": {
-            "over": 0.3257,
-            "under": 0.6743
+            "over": 0.3396,
+            "under": 0.6604
           }
         },
         {
           "point": 3.75,
           "probabilities": {
-            "over": 0.2684,
-            "under": 0.7316
+            "over": 0.2827,
+            "under": 0.7173
           }
         }
       ]
@@ -2961,13 +3083,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.007900000000000018,
-              "under": -0.007899999999999963
+              "over": -0.010299999999999976,
+              "under": 0.010299999999999976
             },
-            "point": 2.0,
+            "point": 3.5,
             "probabilities": {
-              "over": 0.6984,
-              "under": 0.3016
+              "over": 0.3499,
+              "under": 0.6501
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -2982,13 +3104,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": -0.0038000000000000256,
-              "under": 0.0038000000000000256
+              "over": -0.0030999999999999917,
+              "under": 0.003100000000000047
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5514,
-              "under": 0.4486
+              "over": 0.5658,
+              "under": 0.4342
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -2997,13 +3119,13 @@
           },
           {
             "edge_pp": {
-              "over": 0.0020000000000000018,
-              "under": -0.0020000000000000018
+              "over": 0.00020000000000003348,
+              "under": -0.00019999999999997797
             },
             "point": 3.5,
             "probabilities": {
-              "over": 0.3237,
-              "under": 0.6763
+              "over": 0.3394,
+              "under": 0.6606
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3018,13 +3140,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.006699999999999928,
-              "under": -0.006699999999999984
+              "over": 0.008599999999999941,
+              "under": -0.008599999999999997
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5409,
-              "under": 0.4591
+              "over": 0.5541,
+              "under": 0.4459
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3033,13 +3155,13 @@
           },
           {
             "edge_pp": {
-              "over": -0.0014000000000000123,
-              "under": 0.0013999999999999568
+              "over": -0.0040999999999999925,
+              "under": 0.0040999999999999925
             },
             "point": 3.5,
             "probabilities": {
-              "over": 0.3271,
-              "under": 0.6729
+              "over": 0.3437,
+              "under": 0.6563
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3054,31 +3176,46 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.03270000000000006,
-              "under": -0.03270000000000001
+              "over": -0.0032999999999999696,
+              "under": 0.003300000000000025
             },
-            "point": 2.25,
+            "point": 2.5,
             "probabilities": {
-              "over": 0.584,
-              "under": 0.416
+              "over": 0.566,
+              "under": 0.434
             },
             "verdict": {
-              "over": "VALUE",
+              "over": "NO_VALUE",
               "under": "NO_VALUE"
             }
           },
           {
             "edge_pp": {
-              "over": 0.025599999999999956,
-              "under": -0.025599999999999956
+              "over": 0.012899999999999967,
+              "under": -0.012899999999999967
             },
-            "point": 2.5,
+            "point": 2.75,
             "probabilities": {
-              "over": 0.522,
-              "under": 0.478
+              "over": 0.4935,
+              "under": 0.5065
             },
             "verdict": {
-              "over": "VALUE",
+              "over": "NO_VALUE",
+              "under": "NO_VALUE"
+            }
+          },
+          {
+            "edge_pp": {
+              "over": 0.0021999999999999797,
+              "under": -0.0021999999999999797
+            },
+            "point": 3.0,
+            "probabilities": {
+              "over": 0.434,
+              "under": 0.566
+            },
+            "verdict": {
+              "over": "NO_VALUE",
               "under": "NO_VALUE"
             }
           }
@@ -3090,13 +3227,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.01319999999999999,
-              "under": -0.01319999999999999
+              "over": -0.010199999999999987,
+              "under": 0.010200000000000042
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5344,
-              "under": 0.4656
+              "over": 0.5729,
+              "under": 0.4271
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3105,17 +3242,17 @@
           },
           {
             "edge_pp": {
-              "over": 0.007000000000000006,
-              "under": -0.007000000000000006
+              "over": -0.021600000000000008,
+              "under": 0.021599999999999953
             },
             "point": 3.5,
             "probabilities": {
-              "over": 0.3187,
-              "under": 0.6813
+              "over": 0.3612,
+              "under": 0.6388
             },
             "verdict": {
               "over": "NO_VALUE",
-              "under": "NO_VALUE"
+              "under": "VALUE"
             }
           }
         ]
@@ -3126,13 +3263,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.0020999999999999908,
-              "under": -0.0020999999999999908
+              "over": 0.007099999999999995,
+              "under": -0.007099999999999995
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5455,
-              "under": 0.4545
+              "over": 0.5556,
+              "under": 0.4444
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3147,17 +3284,17 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.015100000000000002,
-              "under": -0.015100000000000002
+              "over": -0.021199999999999997,
+              "under": 0.021199999999999997
             },
-            "point": 2.5,
+            "point": 3.0,
             "probabilities": {
-              "over": 0.5325,
-              "under": 0.4675
+              "over": 0.4574,
+              "under": 0.5426
             },
             "verdict": {
               "over": "NO_VALUE",
-              "under": "NO_VALUE"
+              "under": "VALUE"
             }
           }
         ]
@@ -3168,13 +3305,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.0014999999999999458,
-              "under": -0.0015000000000000013
+              "over": -0.000500000000000056,
+              "under": 0.0005000000000000004
             },
             "point": 1.75,
             "probabilities": {
-              "over": 0.7415,
-              "under": 0.2585
+              "over": 0.7558,
+              "under": 0.2442
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3183,13 +3320,13 @@
           },
           {
             "edge_pp": {
-              "over": -0.00019999999999997797,
-              "under": 0.00020000000000003348
+              "over": 0.0,
+              "under": 0.0
             },
             "point": 2.0,
             "probabilities": {
-              "over": 0.7065,
-              "under": 0.2935
+              "over": 0.7218,
+              "under": 0.2782
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3198,13 +3335,13 @@
           },
           {
             "edge_pp": {
-              "over": -0.0005999999999999339,
-              "under": 0.0005999999999999894
+              "over": 0.00029999999999996696,
+              "under": -0.00030000000000002247
             },
             "point": 2.25,
             "probabilities": {
-              "over": 0.6173,
-              "under": 0.3827
+              "over": 0.6326,
+              "under": 0.3674
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3213,13 +3350,73 @@
           },
           {
             "edge_pp": {
-              "over": -0.00019999999999997797,
-              "under": 0.00020000000000003348
+              "over": 0.0008000000000000229,
+              "under": -0.0007999999999999674
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5478,
-              "under": 0.4522
+              "over": 0.5619,
+              "under": 0.4381
+            },
+            "verdict": {
+              "over": "NO_VALUE",
+              "under": "NO_VALUE"
+            }
+          },
+          {
+            "edge_pp": {
+              "over": 0.0011999999999999789,
+              "under": -0.0012000000000000344
+            },
+            "point": 2.75,
+            "probabilities": {
+              "over": 0.5052,
+              "under": 0.4948
+            },
+            "verdict": {
+              "over": "NO_VALUE",
+              "under": "NO_VALUE"
+            }
+          },
+          {
+            "edge_pp": {
+              "over": -0.0019000000000000128,
+              "under": 0.0019000000000000128
+            },
+            "point": 3.0,
+            "probabilities": {
+              "over": 0.4381,
+              "under": 0.5619
+            },
+            "verdict": {
+              "over": "NO_VALUE",
+              "under": "NO_VALUE"
+            }
+          },
+          {
+            "edge_pp": {
+              "over": -0.00029999999999996696,
+              "under": 0.000300000000000078
+            },
+            "point": 3.25,
+            "probabilities": {
+              "over": 0.3827,
+              "under": 0.6173
+            },
+            "verdict": {
+              "over": "NO_VALUE",
+              "under": "NO_VALUE"
+            }
+          },
+          {
+            "edge_pp": {
+              "over": -0.0015999999999999903,
+              "under": 0.0015999999999999348
+            },
+            "point": 3.5,
+            "probabilities": {
+              "over": 0.3412,
+              "under": 0.6588
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3231,70 +3428,10 @@
               "over": 0.0015000000000000013,
               "under": -0.0014999999999999458
             },
-            "point": 2.75,
-            "probabilities": {
-              "over": 0.4895,
-              "under": 0.5105
-            },
-            "verdict": {
-              "over": "NO_VALUE",
-              "under": "NO_VALUE"
-            }
-          },
-          {
-            "edge_pp": {
-              "over": 0.0005000000000000004,
-              "under": -0.0004999999999999449
-            },
-            "point": 3.0,
-            "probabilities": {
-              "over": 0.4162,
-              "under": 0.5838
-            },
-            "verdict": {
-              "over": "NO_VALUE",
-              "under": "NO_VALUE"
-            }
-          },
-          {
-            "edge_pp": {
-              "over": -0.0010999999999999899,
-              "under": 0.0010999999999999899
-            },
-            "point": 3.25,
-            "probabilities": {
-              "over": 0.3674,
-              "under": 0.6326
-            },
-            "verdict": {
-              "over": "NO_VALUE",
-              "under": "NO_VALUE"
-            }
-          },
-          {
-            "edge_pp": {
-              "over": -0.0007000000000000339,
-              "under": 0.0007000000000000339
-            },
-            "point": 3.5,
-            "probabilities": {
-              "over": 0.3264,
-              "under": 0.6736
-            },
-            "verdict": {
-              "over": "NO_VALUE",
-              "under": "NO_VALUE"
-            }
-          },
-          {
-            "edge_pp": {
-              "over": -0.0010999999999999899,
-              "under": 0.0010999999999999899
-            },
             "point": 3.75,
             "probabilities": {
-              "over": 0.2695,
-              "under": 0.7305
+              "over": 0.2812,
+              "under": 0.7188
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3309,13 +3446,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.01319999999999999,
-              "under": -0.01319999999999999
+              "over": -0.010199999999999987,
+              "under": 0.010200000000000042
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5344,
-              "under": 0.4656
+              "over": 0.5729,
+              "under": 0.4271
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3330,13 +3467,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.009099999999999997,
-              "under": -0.009099999999999997
+              "over": 0.0014999999999999458,
+              "under": -0.0015000000000000013
             },
             "point": 2.0,
             "probabilities": {
-              "over": 0.6972,
-              "under": 0.3028
+              "over": 0.7203,
+              "under": 0.2797
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3345,13 +3482,13 @@
           },
           {
             "edge_pp": {
-              "over": 0.011499999999999955,
-              "under": -0.011499999999999955
+              "over": 0.0014999999999999458,
+              "under": -0.0015000000000000013
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5361,
-              "under": 0.4639
+              "over": 0.5612,
+              "under": 0.4388
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3360,13 +3497,13 @@
           },
           {
             "edge_pp": {
-              "over": 0.009200000000000041,
-              "under": -0.009199999999999986
+              "over": -0.0026000000000000467,
+              "under": 0.0025999999999999357
             },
             "point": 3.0,
             "probabilities": {
-              "over": 0.4075,
-              "under": 0.5925
+              "over": 0.4388,
+              "under": 0.5612
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3375,13 +3512,13 @@
           },
           {
             "edge_pp": {
-              "over": 0.004400000000000015,
-              "under": -0.0043999999999999595
+              "over": -0.006199999999999983,
+              "under": 0.006199999999999983
             },
             "point": 3.5,
             "probabilities": {
-              "over": 0.3213,
-              "under": 0.6787
+              "over": 0.3458,
+              "under": 0.6542
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3396,13 +3533,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.011399999999999966,
-              "under": -0.011399999999999966
+              "over": 0.005699999999999927,
+              "under": -0.005699999999999983
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5362,
-              "under": 0.4638
+              "over": 0.557,
+              "under": 0.443
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3411,13 +3548,13 @@
           },
           {
             "edge_pp": {
-              "over": -0.007599999999999996,
-              "under": 0.007600000000000051
+              "over": -0.0019000000000000128,
+              "under": 0.0019000000000000128
             },
             "point": 3.5,
             "probabilities": {
-              "over": 0.3333,
-              "under": 0.6667
+              "over": 0.3415,
+              "under": 0.6585
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3432,13 +3569,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": -0.008199999999999985,
-              "under": 0.00820000000000004
+              "over": -0.0042999999999999705,
+              "under": 0.004300000000000026
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5558,
-              "under": 0.4442
+              "over": 0.567,
+              "under": 0.433
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3447,13 +3584,13 @@
           },
           {
             "edge_pp": {
-              "over": 0.0015999999999999903,
-              "under": -0.0015999999999999348
+              "over": -0.004799999999999971,
+              "under": 0.0048000000000000265
             },
             "point": 3.5,
             "probabilities": {
-              "over": 0.3241,
-              "under": 0.6759
+              "over": 0.3444,
+              "under": 0.6556
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3468,13 +3605,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.01319999999999999,
-              "under": -0.01319999999999999
+              "over": -0.010199999999999987,
+              "under": 0.010200000000000042
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5344,
-              "under": 0.4656
+              "over": 0.5729,
+              "under": 0.4271
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3489,13 +3626,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.014399999999999968,
-              "under": -0.014399999999999968
+              "over": 0.013900000000000023,
+              "under": -0.013899999999999968
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5332,
-              "under": 0.4668
+              "over": 0.5488,
+              "under": 0.4512
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3510,13 +3647,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.011399999999999966,
-              "under": -0.011399999999999966
+              "over": 0.011599999999999944,
+              "under": -0.0116
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5362,
-              "under": 0.4638
+              "over": 0.5511,
+              "under": 0.4489
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3525,13 +3662,13 @@
           },
           {
             "edge_pp": {
-              "over": -0.0116,
-              "under": 0.011600000000000055
+              "over": -0.0019000000000000128,
+              "under": 0.0019000000000000128
             },
             "point": 3.5,
             "probabilities": {
-              "over": 0.3373,
-              "under": 0.6627
+              "over": 0.3415,
+              "under": 0.6585
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3546,13 +3683,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.01319999999999999,
-              "under": -0.01319999999999999
+              "over": -0.010199999999999987,
+              "under": 0.010200000000000042
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5344,
-              "under": 0.4656
+              "over": 0.5729,
+              "under": 0.4271
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3567,31 +3704,46 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.03270000000000006,
-              "under": -0.03270000000000001
+              "over": -0.0032999999999999696,
+              "under": 0.003300000000000025
             },
-            "point": 2.25,
+            "point": 2.5,
             "probabilities": {
-              "over": 0.584,
-              "under": 0.416
+              "over": 0.566,
+              "under": 0.434
             },
             "verdict": {
-              "over": "VALUE",
+              "over": "NO_VALUE",
               "under": "NO_VALUE"
             }
           },
           {
             "edge_pp": {
-              "over": 0.025599999999999956,
-              "under": -0.025599999999999956
+              "over": 0.012899999999999967,
+              "under": -0.012899999999999967
             },
-            "point": 2.5,
+            "point": 2.75,
             "probabilities": {
-              "over": 0.522,
-              "under": 0.478
+              "over": 0.4935,
+              "under": 0.5065
             },
             "verdict": {
-              "over": "VALUE",
+              "over": "NO_VALUE",
+              "under": "NO_VALUE"
+            }
+          },
+          {
+            "edge_pp": {
+              "over": 0.0021999999999999797,
+              "under": -0.0021999999999999797
+            },
+            "point": 3.0,
+            "probabilities": {
+              "over": 0.434,
+              "under": 0.566
+            },
+            "verdict": {
+              "over": "NO_VALUE",
               "under": "NO_VALUE"
             }
           }
@@ -3603,13 +3755,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": -0.0024000000000000687,
-              "under": 0.0024000000000000132
+              "over": -0.0017000000000000348,
+              "under": 0.0017000000000000348
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.55,
-              "under": 0.45
+              "over": 0.5644,
+              "under": 0.4356
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3624,13 +3776,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.01529999999999998,
-              "under": -0.01529999999999998
+              "over": 0.005699999999999927,
+              "under": -0.005699999999999983
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5323,
-              "under": 0.4677
+              "over": 0.557,
+              "under": 0.443
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3645,13 +3797,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.0020999999999999908,
-              "under": -0.0020999999999999908
+              "over": 0.007099999999999995,
+              "under": -0.007099999999999995
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5455,
-              "under": 0.4545
+              "over": 0.5556,
+              "under": 0.4444
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3666,13 +3818,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": -0.0010000000000000009,
-              "under": 0.0010000000000000009
+              "over": 0.005600000000000049,
+              "under": -0.005599999999999994
             },
             "point": 2.0,
             "probabilities": {
-              "over": 0.7073,
-              "under": 0.2927
+              "over": 0.7162,
+              "under": 0.2838
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3681,13 +3833,13 @@
           },
           {
             "edge_pp": {
-              "over": 0.008900000000000019,
-              "under": -0.008899999999999963
+              "over": 0.007699999999999929,
+              "under": -0.007699999999999985
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5387,
-              "under": 0.4613
+              "over": 0.555,
+              "under": 0.445
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3696,13 +3848,13 @@
           },
           {
             "edge_pp": {
-              "over": 0.0017000000000000348,
-              "under": -0.0016999999999999238
+              "over": -0.0030000000000000027,
+              "under": 0.0030000000000000027
             },
             "point": 3.0,
             "probabilities": {
-              "over": 0.415,
-              "under": 0.585
+              "over": 0.4392,
+              "under": 0.5608
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3711,13 +3863,13 @@
           },
           {
             "edge_pp": {
-              "over": -0.0015999999999999903,
-              "under": 0.0016000000000000458
+              "over": -0.011899999999999966,
+              "under": 0.011900000000000022
             },
             "point": 3.5,
             "probabilities": {
-              "over": 0.3273,
-              "under": 0.6727
+              "over": 0.3515,
+              "under": 0.6485
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3732,13 +3884,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": -0.012400000000000078,
-              "under": 0.012400000000000022
+              "over": -0.016199999999999992,
+              "under": 0.016200000000000048
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.56,
-              "under": 0.44
+              "over": 0.5789,
+              "under": 0.4211
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3747,86 +3899,8 @@
           },
           {
             "edge_pp": {
-              "over": 0.0049000000000000155,
-              "under": -0.0049000000000000155
-            },
-            "point": 3.5,
-            "probabilities": {
-              "over": 0.3208,
-              "under": 0.6792
-            },
-            "verdict": {
-              "over": "NO_VALUE",
-              "under": "NO_VALUE"
-            }
-          }
-        ]
-      },
-      {
-        "actionability": "syndicate_only",
-        "book_key": "playup",
-        "lines": [
-          {
-            "edge_pp": {
-              "over": 0.0038000000000000256,
-              "under": -0.00379999999999997
-            },
-            "point": 2.5,
-            "probabilities": {
-              "over": 0.5438,
-              "under": 0.4562
-            },
-            "verdict": {
-              "over": "NO_VALUE",
-              "under": "NO_VALUE"
-            }
-          }
-        ]
-      },
-      {
-        "actionability": "syndicate_only",
-        "book_key": "pmu_fr",
-        "lines": [
-          {
-            "edge_pp": {
-              "over": 0.013699999999999934,
-              "under": -0.01369999999999999
-            },
-            "point": 2.5,
-            "probabilities": {
-              "over": 0.5339,
-              "under": 0.4661
-            },
-            "verdict": {
-              "over": "NO_VALUE",
-              "under": "NO_VALUE"
-            }
-          }
-        ]
-      },
-      {
-        "actionability": "syndicate_only",
-        "book_key": "skybet",
-        "lines": [
-          {
-            "edge_pp": {
-              "over": -0.009400000000000075,
-              "under": 0.00940000000000002
-            },
-            "point": 2.5,
-            "probabilities": {
-              "over": 0.557,
-              "under": 0.443
-            },
-            "verdict": {
-              "over": "NO_VALUE",
-              "under": "NO_VALUE"
-            }
-          },
-          {
-            "edge_pp": {
-              "over": -0.0116,
-              "under": 0.011600000000000055
+              "over": 0.0023000000000000242,
+              "under": -0.0022999999999999687
             },
             "point": 3.5,
             "probabilities": {
@@ -3842,17 +3916,59 @@
       },
       {
         "actionability": "syndicate_only",
-        "book_key": "tab",
+        "book_key": "playup",
         "lines": [
           {
             "edge_pp": {
-              "over": 0.0038000000000000256,
-              "under": -0.00379999999999997
+              "over": 0.0048000000000000265,
+              "under": -0.004799999999999971
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5438,
-              "under": 0.4562
+              "over": 0.5579,
+              "under": 0.4421
+            },
+            "verdict": {
+              "over": "NO_VALUE",
+              "under": "NO_VALUE"
+            }
+          }
+        ]
+      },
+      {
+        "actionability": "syndicate_only",
+        "book_key": "pmu_fr",
+        "lines": [
+          {
+            "edge_pp": {
+              "over": -0.009099999999999997,
+              "under": 0.009099999999999997
+            },
+            "point": 2.5,
+            "probabilities": {
+              "over": 0.5718,
+              "under": 0.4282
+            },
+            "verdict": {
+              "over": "NO_VALUE",
+              "under": "NO_VALUE"
+            }
+          }
+        ]
+      },
+      {
+        "actionability": "syndicate_only",
+        "book_key": "skybet",
+        "lines": [
+          {
+            "edge_pp": {
+              "over": -0.01319999999999999,
+              "under": 0.013200000000000045
+            },
+            "point": 2.5,
+            "probabilities": {
+              "over": 0.5759,
+              "under": 0.4241
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3861,13 +3977,49 @@
           },
           {
             "edge_pp": {
-              "over": -0.007599999999999996,
-              "under": 0.007600000000000051
+              "over": -0.01419999999999999,
+              "under": 0.01419999999999999
             },
             "point": 3.5,
             "probabilities": {
-              "over": 0.3333,
-              "under": 0.6667
+              "over": 0.3538,
+              "under": 0.6462
+            },
+            "verdict": {
+              "over": "NO_VALUE",
+              "under": "NO_VALUE"
+            }
+          }
+        ]
+      },
+      {
+        "actionability": "syndicate_only",
+        "book_key": "tab",
+        "lines": [
+          {
+            "edge_pp": {
+              "over": 0.007099999999999995,
+              "under": -0.007099999999999995
+            },
+            "point": 2.5,
+            "probabilities": {
+              "over": 0.5556,
+              "under": 0.4444
+            },
+            "verdict": {
+              "over": "NO_VALUE",
+              "under": "NO_VALUE"
+            }
+          },
+          {
+            "edge_pp": {
+              "over": -0.008199999999999985,
+              "under": 0.008199999999999985
+            },
+            "point": 3.5,
+            "probabilities": {
+              "over": 0.3478,
+              "under": 0.6522
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3882,13 +4034,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.01319999999999999,
-              "under": -0.01319999999999999
+              "over": -0.010199999999999987,
+              "under": 0.010200000000000042
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5344,
-              "under": 0.4656
+              "over": 0.5729,
+              "under": 0.4271
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3903,13 +4055,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.01319999999999999,
-              "under": -0.01319999999999999
+              "over": -0.010199999999999987,
+              "under": 0.010200000000000042
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5344,
-              "under": 0.4656
+              "over": 0.5729,
+              "under": 0.4271
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3924,13 +4076,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.01319999999999999,
-              "under": -0.01319999999999999
+              "over": -0.010199999999999987,
+              "under": 0.010200000000000042
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5344,
-              "under": 0.4656
+              "over": 0.5729,
+              "under": 0.4271
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -3945,49 +4097,13 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.012499999999999956,
-              "under": -0.012499999999999956
+              "over": -0.010600000000000054,
+              "under": 0.010599999999999998
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.5351,
-              "under": 0.4649
-            },
-            "verdict": {
-              "over": "NO_VALUE",
-              "under": "NO_VALUE"
-            }
-          }
-        ]
-      },
-      {
-        "actionability": "syndicate_only",
-        "book_key": "virginbet",
-        "lines": [
-          {
-            "edge_pp": {
-              "over": 0.012799999999999923,
-              "under": -0.012799999999999978
-            },
-            "point": 2.5,
-            "probabilities": {
-              "over": 0.5348,
-              "under": 0.4652
-            },
-            "verdict": {
-              "over": "NO_VALUE",
-              "under": "NO_VALUE"
-            }
-          },
-          {
-            "edge_pp": {
-              "over": 0.0049000000000000155,
-              "under": -0.0049000000000000155
-            },
-            "point": 3.5,
-            "probabilities": {
-              "over": 0.3208,
-              "under": 0.6792
+              "over": 0.5733,
+              "under": 0.4267
             },
             "verdict": {
               "over": "NO_VALUE",
@@ -4002,23 +4118,23 @@
         "lines": [
           {
             "edge_pp": {
-              "over": 0.02059999999999995,
-              "under": -0.02059999999999995
+              "over": 0.016000000000000014,
+              "under": -0.01599999999999996
             },
             "point": 2.5,
             "probabilities": {
-              "over": 0.527,
-              "under": 0.473
+              "over": 0.5467,
+              "under": 0.4533
             },
             "verdict": {
-              "over": "VALUE",
+              "over": "NO_VALUE",
               "under": "NO_VALUE"
             }
           }
         ]
       }
     ],
-    "capture_timestamp_utc": "2026-06-19T11:10:38.830807+00:00",
+    "capture_timestamp_utc": "2026-06-19T19:20:48.211974+00:00",
     "de_vig_method": "proportional",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1539007",
@@ -4042,16 +4158,16 @@
     "schema_version": "spreads.0",
     "shared_lines": [
       {
-        "home_cover_edge_pp": 0.007500000000000007,
+        "home_cover_edge_pp": 0.017699999999999994,
         "kalshi_home_cover_fair": 0.305,
         "line": -1.5,
-        "sharp_home_cover_fair": 0.3125
+        "sharp_home_cover_fair": 0.3227
       }
     ],
     "source": "SPREADS_COMPARISON"
   },
   "spreads_kalshi": {
-    "capture_timestamp_utc": "2026-06-19T11:10:39.372862+00:00",
+    "capture_timestamp_utc": "2026-06-19T19:20:48.865887+00:00",
     "de_vig_method": "proportional_kalshi",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1539007",
@@ -4088,54 +4204,54 @@
     "source": "KALSHI"
   },
   "spreads_sharp": {
-    "capture_timestamp_utc": "2026-06-19T11:10:38.497384+00:00",
+    "capture_timestamp_utc": "2026-06-19T19:20:47.926381+00:00",
     "de_vig_method": "proportional_pinnacle",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1539007",
     "lines": [
       {
-        "away_cover_fair": 0.7485,
-        "home_cover_fair": 0.2515,
+        "away_cover_fair": 0.7395,
+        "home_cover_fair": 0.2605,
         "line": -1.75
       },
       {
-        "away_cover_fair": 0.6875,
-        "home_cover_fair": 0.3125,
+        "away_cover_fair": 0.6773,
+        "home_cover_fair": 0.3227,
         "line": -1.5
       },
       {
-        "away_cover_fair": 0.6454,
-        "home_cover_fair": 0.3546,
+        "away_cover_fair": 0.6355,
+        "home_cover_fair": 0.3645,
         "line": -1.25
       },
       {
-        "away_cover_fair": 0.591,
-        "home_cover_fair": 0.409,
+        "away_cover_fair": 0.5768,
+        "home_cover_fair": 0.4232,
         "line": -1.0
       },
       {
-        "away_cover_fair": 0.5115,
-        "home_cover_fair": 0.4885,
+        "away_cover_fair": 0.5,
+        "home_cover_fair": 0.5,
         "line": -0.75
       },
       {
-        "away_cover_fair": 0.4501,
-        "home_cover_fair": 0.5499,
+        "away_cover_fair": 0.4388,
+        "home_cover_fair": 0.5612,
         "line": -0.5
       },
       {
-        "away_cover_fair": 0.3753,
-        "home_cover_fair": 0.6247,
+        "away_cover_fair": 0.3669,
+        "home_cover_fair": 0.6331,
         "line": -0.25
       },
       {
-        "away_cover_fair": 0.2797,
-        "home_cover_fair": 0.7203,
+        "away_cover_fair": 0.2716,
+        "home_cover_fair": 0.7284,
         "line": 0.0
       },
       {
-        "away_cover_fair": 0.2424,
-        "home_cover_fair": 0.7576,
+        "away_cover_fair": 0.2368,
+        "home_cover_fair": 0.7632,
         "line": 0.25
       }
     ],
@@ -4213,38 +4329,38 @@
     "constructions": {
       "ah_minus_0_25": {
         "away": {
-          "edge_pp": 0.008882855869232181,
+          "edge_pp": 0.004459504950002385,
           "kalshi_fair": 0.23229461756373934,
-          "sharp_fair": 0.24117747343297152
+          "sharp_fair": 0.23675412251374173
         },
         "home": {
-          "edge_pp": -0.0066300253020852296,
+          "edge_pp": 0.0010135822265772143,
           "kalshi_fair": 0.6288951841359773,
-          "sharp_fair": 0.6222651588338921
+          "sharp_fair": 0.6299087663625546
         }
       },
       "dnb": {
         "away": {
-          "edge_pp": 0.009583942414942148,
+          "edge_pp": 0.003442182348771139,
           "kalshi_fair": 0.26973684210526316,
-          "sharp_fair": 0.2793207845202053
+          "sharp_fair": 0.2731790244540343
         },
         "home": {
-          "edge_pp": -0.009583942414942315,
+          "edge_pp": -0.00344218234877125,
           "kalshi_fair": 0.730263157894737,
-          "sharp_fair": 0.7206792154797946
+          "sharp_fair": 0.7268209755459657
         }
       },
       "double_chance": {
         "away": {
-          "edge_pp": 0.004738805970149307,
+          "edge_pp": -0.0035611940298506672,
           "kalshi_fair": 0.4477611940298507,
-          "sharp_fair": 0.4525
+          "sharp_fair": 0.44420000000000004
         },
         "home": {
-          "edge_pp": -0.008219900497512422,
+          "edge_pp": -0.004919900497512564,
           "kalshi_fair": 0.7960199004975125,
-          "sharp_fair": 0.7878000000000001
+          "sharp_fair": 0.7910999999999999
         }
       }
     },
@@ -4265,22 +4381,22 @@
     "schema_version": "totals.0",
     "shared_lines": [
       {
-        "kalshi_over_fair": 0.535,
+        "kalshi_over_fair": 0.575,
         "line": 2.5,
-        "over_edge_pp": 0.012599999999999945,
-        "sharp_over_fair": 0.5476
+        "over_edge_pp": -0.012299999999999978,
+        "sharp_over_fair": 0.5627
       },
       {
-        "kalshi_over_fair": 0.315,
+        "kalshi_over_fair": 0.335,
         "line": 3.5,
-        "over_edge_pp": 0.010699999999999987,
-        "sharp_over_fair": 0.3257
+        "over_edge_pp": 0.004599999999999993,
+        "sharp_over_fair": 0.3396
       }
     ],
     "source": "TOTALS_COMPARISON"
   },
   "totals_kalshi": {
-    "capture_timestamp_utc": "2026-06-19T11:10:39.205256+00:00",
+    "capture_timestamp_utc": "2026-06-19T19:20:48.594250+00:00",
     "de_vig_method": "proportional_kalshi",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1539007",
@@ -4292,28 +4408,28 @@
       },
       {
         "line": 1.5,
-        "over_fair": 0.775,
-        "under_fair": 0.225
+        "over_fair": 0.795,
+        "under_fair": 0.205
       },
       {
         "line": 2.5,
-        "over_fair": 0.535,
-        "under_fair": 0.465
+        "over_fair": 0.575,
+        "under_fair": 0.425
       },
       {
         "line": 3.5,
-        "over_fair": 0.315,
-        "under_fair": 0.685
+        "over_fair": 0.335,
+        "under_fair": 0.665
       },
       {
         "line": 4.5,
-        "over_fair": 0.155,
-        "under_fair": 0.845
+        "over_fair": 0.165,
+        "under_fair": 0.835
       },
       {
         "line": 5.5,
-        "over_fair": 0.065,
-        "under_fair": 0.935
+        "over_fair": 0.075,
+        "under_fair": 0.925
       }
     ],
     "operator_review_required": true,
@@ -4327,55 +4443,55 @@
     "source": "KALSHI"
   },
   "totals_sharp": {
-    "capture_timestamp_utc": "2026-06-19T11:10:38.397346+00:00",
+    "capture_timestamp_utc": "2026-06-19T19:20:47.872841+00:00",
     "de_vig_method": "proportional_pinnacle",
     "execution_available": false,
     "fixture_key": "api_football:fixture:1539007",
     "lines": [
       {
         "line": 1.75,
-        "over_fair": 0.743,
-        "under_fair": 0.257
+        "over_fair": 0.7553,
+        "under_fair": 0.2447
       },
       {
         "line": 2.0,
-        "over_fair": 0.7063,
-        "under_fair": 0.2937
+        "over_fair": 0.7218,
+        "under_fair": 0.2782
       },
       {
         "line": 2.25,
-        "over_fair": 0.6167,
-        "under_fair": 0.3833
+        "over_fair": 0.6329,
+        "under_fair": 0.3671
       },
       {
         "line": 2.5,
-        "over_fair": 0.5476,
-        "under_fair": 0.4524
+        "over_fair": 0.5627,
+        "under_fair": 0.4373
       },
       {
         "line": 2.75,
-        "over_fair": 0.491,
-        "under_fair": 0.509
+        "over_fair": 0.5064,
+        "under_fair": 0.4936
       },
       {
         "line": 3.0,
-        "over_fair": 0.4167,
-        "under_fair": 0.5833
+        "over_fair": 0.4362,
+        "under_fair": 0.5638
       },
       {
         "line": 3.25,
-        "over_fair": 0.3663,
-        "under_fair": 0.6337
+        "over_fair": 0.3824,
+        "under_fair": 0.6176
       },
       {
         "line": 3.5,
-        "over_fair": 0.3257,
-        "under_fair": 0.6743
+        "over_fair": 0.3396,
+        "under_fair": 0.6604
       },
       {
         "line": 3.75,
-        "over_fair": 0.2684,
-        "under_fair": 0.7316
+        "over_fair": 0.2827,
+        "under_fair": 0.7173
       }
     ],
     "operator_review_required": true,
